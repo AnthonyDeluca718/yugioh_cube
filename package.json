@@ -2,6 +2,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
+    "line-by-line": "^0.1.6",
     "request": "^2.88.0"
   }
 }

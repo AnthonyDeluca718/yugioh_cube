@@ -2,9 +2,9 @@ const cheerio = require('cheerio')
 const axios = require('axios')
 const fs = require('fs')
 const request = require('request')
+const LineByLine = require('line-by-line')
 
 const getImage = ({ name, url, folder }) => {
-  console.log(url)
   axios.get(url)
   .then((res) => {
     const $ = cheerio.load(res.data)
@@ -22,7 +22,8 @@ const getImage = ({ name, url, folder }) => {
 }
 
 const getProps = (card, folder) => {
-  name = card.split(' ').map(x => x[0].toUpperCase() + x.slice(1)).join('_')
+  // name = card.split(' ').map(x => x[0].toUpperCase() + x.slice(1)).join('_')
+  name = card.split(' ').join('_')
 
   return {
     name,
@@ -31,4 +32,17 @@ const getProps = (card, folder) => {
   }
 }
 
-getImage(getProps('dark armed dragon', 'test'))
+const get_images = (folder) => {
+  if (!fs.existsSync(`./images/${folder}`)) {
+    fs.mkdirSync(`./images/${folder}`)
+  }
+  const lr = new LineByLine(`./cardSets/${folder}`)
+
+  lr.on('line', (line) => {
+    getImage(getProps(line, folder))
+  })
+}
+
+get_images('set-1')
+
+// getImage(getProps('dark armed dragon', 'test'))
