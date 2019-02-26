@@ -14,7 +14,7 @@ const getImage = ({ name, url, folder }) => {
     const format = srcArray[srcArray.length - 1]
 
     request.get(src)
-    .pipe(fs.createWriteStream(`${name}.${format}`))
+    .pipe(fs.createWriteStream(`./images/${folder}/${name}.${format}`))
   })
   .catch((error) => {
     console.log(name)
