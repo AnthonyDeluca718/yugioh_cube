@@ -44,5 +44,3 @@ const get_images = (folder) => {
 }
 
 get_images(process.argv[2])
-
-// getImage(getProps('dark armed dragon', 'test'))
