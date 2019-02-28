@@ -1,9 +1,10 @@
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.File;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
+import java.awt.Color;
 
 public class CubeFormatter
 {
@@ -17,12 +18,47 @@ public class CubeFormatter
 			for(int k = 0; k < fileList.length; ++k)
 				if(fileList[k].isDirectory())
 					for(int j = 0; j < fileList[k].listFiles().length; ++j)
-						allImages.add(fileList[k].listFiles()[j]);
+					{
+						if(!fileList[k].listFiles()[j].getName().substring(0, 1).equals("."))
+							allImages.add(fileList[k].listFiles()[j]);
+					}
 				else
-					allImages.add(fileList[k]);
-			System.out.println(allImages.size());
-			//BufferedImage card = ImageIO.read(new File());
-			//FileOutputStream page = new FileOutputStream();
+				{
+					if(!fileList[k].getName().substring(0, 1).equals("."))
+						allImages.add(fileList[k]);
+				}
+
+			int pageCounter = 0;
+			int positionOnPage = -1;
+			FileOutputStream pageStream = new FileOutputStream("printables/blankfile.png");
+			BufferedImage page = new BufferedImage(1275, 1650, BufferedImage.TYPE_INT_RGB);
+			Graphics pageGraphics = page.getGraphics();
+			while(allImages.size() > 0)
+			{
+				BufferedImage card = ImageIO.read(allImages.remove(0));
+				positionOnPage = (positionOnPage + 1) % 9;
+				if(positionOnPage == 0)
+				{
+					pageStream = new FileOutputStream("printables/page" + pageCounter + ".png");
+					pageGraphics.setColor(new Color(255, 255, 255));
+					pageGraphics.fillRect(0, 0, 1275, 1650);
+				}
+				pageGraphics.setColor(new Color(0, 0, 0));
+				int x = 105 + (positionOnPage % 3) * 355;
+				int y = 70 + (positionOnPage / 3) * 503;
+				pageGraphics.fillRect(x, y, 355, 503);
+				pageGraphics.drawImage(card, (int) (x + 178.0 - 251.5 * card.getWidth() / card.getHeight()), y, (int) (x + 178.0 + 251.5 * card.getWidth() / card.getHeight()), y + 503, 0, 0, card.getWidth(), card.getHeight(), null);
+				if(positionOnPage == 8)
+				{
+					ImageIO.write(page, "png", pageStream);
+					pageStream.flush();
+					pageStream.close();
+					++pageCounter;
+				}
+			}
+			ImageIO.write(page, "png", pageStream);
+			pageStream.flush();
+			pageStream.close();
 		}
 		catch(Exception e)
 		{
@@ -30,3 +66,8 @@ public class CubeFormatter
 		}
 	}
 }
+
+/*page width: 1275
+page height: 1650
+"card" width: 355
+"card" height: 503*/
