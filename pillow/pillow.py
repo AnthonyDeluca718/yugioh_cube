@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
-import os, json
+import os, json, textwrap
+
 
 # img = Image.new('RGB', (100, 30), color = (73, 109, 137))
 #
@@ -9,16 +10,24 @@ import os, json
 
 path = os.path.join(os.path.dirname(__file__), 'set-1-copy', 'Accel_Synchron.png')
 im = Image.open(path)
+im = im.resize((355, 503))
+
 width, height = im.size
-draw = ImageDraw.Draw(im)
-draw.rectangle([(0, height - 100), (height, height)], (73, 109, 137))
 
 path = os.path.join(os.path.dirname(__file__), 'accel.json')
 data_file = open(path, 'r')
 data = json.load(data_file)
 
-fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 15)
-draw.text((0, height-100), data['text'], font=fnt)
+fnt = ImageFont.truetype('/Library/Fonts/Times New Roman.ttf', 12)
+o_text = " ".join(data['text'].split("\n"))
+
+lines = textwrap.wrap(o_text, 70)
+text_box = "\n".join(lines)
+ascent, descent = fnt.getmetrics()
+box_height = (len(lines)+1)*(ascent + descent)
+draw = ImageDraw.Draw(im)
+draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
+draw.text((0, height-box_height), text_box, font=fnt, fill=(0, 0, 0))
 
 im.save('accel.png')
 
