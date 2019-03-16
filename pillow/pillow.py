@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
-import os
+import os, json
 
 # img = Image.new('RGB', (100, 30), color = (73, 109, 137))
 #
@@ -11,7 +11,12 @@ path = os.path.join(os.path.dirname(__file__), 'set-1-copy', 'Accel_Synchron.png
 im = Image.open(path)
 width, height = im.size
 draw = ImageDraw.Draw(im)
-draw.rectangle([(0, 0), (100, 100)], (73, 109, 137))
+draw.rectangle([(0, height - 100), (height, height)], (73, 109, 137))
+
+path = os.path.join(os.path.dirname(__file__), 'accel.json')
+data_file = open(path, 'r')
+data = json.load(data_file)
+print(data)
 
 im.save('accel.png')
 

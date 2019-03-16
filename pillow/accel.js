@@ -17,4 +17,4 @@ fs.writeFileSync('accel.json', JSON.stringify({
     stats,
     types,
     name
-}), null, 4)
+}))
