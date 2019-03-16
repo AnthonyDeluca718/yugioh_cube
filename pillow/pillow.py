@@ -10,7 +10,7 @@ import os, json, textwrap
 
 path = os.path.join(os.path.dirname(__file__), 'set-1-copy', 'Accel_Synchron.png')
 im = Image.open(path)
-im = im.resize((355, 503))
+im = im.resize((353, 501))
 
 width, height = im.size
 
@@ -18,16 +18,17 @@ path = os.path.join(os.path.dirname(__file__), 'accel.json')
 data_file = open(path, 'r')
 data = json.load(data_file)
 
-fnt = ImageFont.truetype('/Library/Fonts/Times New Roman.ttf', 12)
+fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 12)
 o_text = " ".join(data['text'].split("\n"))
 
-lines = textwrap.wrap(o_text, 70)
+lines = textwrap.wrap(o_text, 61)
 text_box = "\n".join(lines)
 ascent, descent = fnt.getmetrics()
-box_height = (len(lines)+1)*(ascent + descent)
+box_height = (len(lines))*(ascent + descent + 1)
+print(box_height)
 draw = ImageDraw.Draw(im)
 draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
-draw.text((0, height-box_height), text_box, font=fnt, fill=(0, 0, 0))
+draw.text((3, height-box_height), text_box, font=fnt, fill=(0, 0, 0))
 
 im.save('accel.png')
 
