@@ -16,12 +16,11 @@ draw.rectangle([(0, height - 100), (height, height)], (73, 109, 137))
 path = os.path.join(os.path.dirname(__file__), 'accel.json')
 data_file = open(path, 'r')
 data = json.load(data_file)
-print(data)
+
+fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 15)
+draw.text((0, height-100), data['text'], font=fnt)
 
 im.save('accel.png')
-
-print(width)
-print(height)
 
 # path = os.path.join(os.path.dirname(__file__), 'set-1-copy')
 # pictures = os.listdir(path)
