@@ -5,8 +5,8 @@ const request = require('request')
 const LineByLine = require('line-by-line')
 const he = require('he') // he for decoding html entities
 
-const getText = ({ name, url, folder }) => {
-  axios.get(url)
+const getText = ({ name, url }) => {
+  return axios.get(url)
   .then((res) => {
     const $ = cheerio.load(res.data)
 
@@ -14,7 +14,9 @@ const getText = ({ name, url, folder }) => {
     const $rules = $eng.parent().parent().find('.navbox-list').first()
     $rules.find('br').replaceWith('\n')
     const text = $rules.text().trim()
-    let data
+    let data = {
+      name: 'YOLO CASH MONEY'
+    }
 
     const cardTypeContainer = $("th:contains('Card type')")
     const cardType = cardTypeContainer && cardTypeContainer.parent().find("td a").first().text().trim()
@@ -36,8 +38,7 @@ const getText = ({ name, url, folder }) => {
       }
     }
 
-    fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify(data, null, 4))
-
+    return data
   })
   .catch((error) => {
     console.log(error)
@@ -45,7 +46,6 @@ const getText = ({ name, url, folder }) => {
 }
 
 const getProps = (card, folder) => {
-  // name = card.split(' ').map(x => x[0].toUpperCase() + x.slice(1)).join('_')
   name = card.split(' ').join('_')
 
   return {
@@ -55,8 +55,16 @@ const getProps = (card, folder) => {
   }
 }
 
-const getData = (card, folder) => {
-  getText(getProps(card, folder))
+const getData = (card) => {
+  return getText(getProps(card))
 }
 
-getData('Accel Synchron', 'test')
+const writeData = (card, folder) => {
+  getData(card)
+  .then(data => fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify(data, null, 4)))
+  .catch(() => console.log('error'))
+}
+
+writeData('Trap Hole', 'test')
+
+module.exports = getData

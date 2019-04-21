@@ -1,0 +1,6 @@
+{
+    "card_type": "Monster",
+    "text": "1 Tuner + 1 or more non-Tuner Spellcaster-Type monsters\nIf this card is Synchro Summoned: Place 2 Spell Counters on it. This card gains 1000 ATK for each Spell Counter on it. You can remove 1 Spell Counter from your field, then target 1 card your opponent controls; destroy that target.",
+    "stats": "400 / 1800",
+    "types": "Spellcaster / Synchro / Effect"
+}
