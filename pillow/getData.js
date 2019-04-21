@@ -21,7 +21,7 @@ const getText = ({ name, url, folder }) => {
 
     if (cardType == 'Spell' || cardType == 'Trap') {
       data = {
-        cardType,
+        card_type: cardType,
         text
       }
     } else {
@@ -29,7 +29,7 @@ const getText = ({ name, url, folder }) => {
       const types = $("th:contains('Types')").parent().find("td").text().trim()
 
       data = {
-        cardType,
+        card_type: cardType,
         text,
         stats,
         types
@@ -59,4 +59,4 @@ const getData = (card, folder) => {
   getText(getProps(card, folder))
 }
 
-getData('Allure of Darkness', 'test')
+getData('Accel Synchron', 'test')
