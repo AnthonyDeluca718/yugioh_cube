@@ -27,13 +27,13 @@ def add_text(data, image, output_name):
   draw = ImageDraw.Draw(image)
 
   if (card_type == 'Monster'):
-    box_height = (len(lines))*line_height + 2 * line_height_black
+    box_height = max([(len(lines))*line_height + 2 * line_height_black, 130])
     draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
     draw.text((3, height - box_height), data['types'], font=fnt_black, fill=(0, 0, 0))
     draw.text((3, height - box_height + line_height_black), text_box, font=fnt, fill=(0, 0, 0))
     draw.text((3, height - line_height_black), data['stats'], font=fnt_black, fill=(0, 0, 0))
   else:
-    box_height = (len(lines))*line_height
+    box_height = max([(len(lines))*line_height, 130])
     draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
     draw.text((3, height - box_height), text_box, font=fnt, fill=(0, 0, 0))
   image.save(output_name)
