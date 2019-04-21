@@ -22,16 +22,12 @@ const getText = ({ name, url, folder }) => {
     // console.log( $eng.parent().parent().innerTtext() )
     const $rules = $eng.parent().parent().find('.navbox-list').first()
     $rules.find('br').replaceWith('\n')
-    const text = $rules.text()
-    console.log(text)
+    const text = $rules.text().trim()
 
-    // eng.parent().parent().find('.navbox-list').first()[0].innerText - what we want
+    fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify({
+      text: text
+    }))
 
-    // var myhtml = $rules.html().replace(/<(?:.|\n)*?>/gm, '\n') // remove all html tags
-    // var mytext = he.decode(myhtml)
-    // console.log(mytext)
-
-    // console.log($rules[0].innerText)
   })
   .catch((error) => {
     console.log('error')
@@ -53,4 +49,4 @@ const getData = (card, folder) => {
   getText(getProps(card, folder))
 }
 
-getData('Accel Synchron', 'misc')
+getData('Mirror Force', 'test')
