@@ -14,18 +14,33 @@ const getText = ({ name, url, folder }) => {
     const $rules = $eng.parent().parent().find('.navbox-list').first()
     $rules.find('br').replaceWith('\n')
     const text = $rules.text().trim()
+    let data
 
-    const stats = $("th:contains('ATK / DEF')").parent().find("td").text().trim()
+    const cardTypeContainer = $("th:contains('Card type')")
+    const cardType = cardTypeContainer && cardTypeContainer.parent().find("td a").first().text().trim()
 
+    if (cardType == 'Spell' || cardType == 'Trap') {
+      data = {
+        cardType,
+        text
+      }
+    } else {
+      const stats = $("th:contains('ATK / DEF')").parent().find("td").text().trim()
+      const types = $("th:contains('Types')").parent().find("td").text().trim()
 
-    fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify({
-      text,
-      stats
-    }))
+      data = {
+        cardType,
+        text,
+        stats,
+        types
+      }
+    }
+
+    fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify(data, null, 4))
 
   })
   .catch((error) => {
-    console.log('error')
+    console.log(error)
   })
 }
 
@@ -44,4 +59,4 @@ const getData = (card, folder) => {
   getText(getProps(card, folder))
 }
 
-getData('Accel Synchron', 'test')
+getData('Allure of Darkness', 'test')
