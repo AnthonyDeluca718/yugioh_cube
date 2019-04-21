@@ -5,7 +5,7 @@ const request = require('request')
 const LineByLine = require('line-by-line')
 const he = require('he') // he for decoding html entities
 
-const getText = ({ name, url }) => {
+const loadData = ({ name, url }) => {
   return axios.get(url)
   .then((res) => {
     const $ = cheerio.load(res.data)
@@ -56,7 +56,7 @@ const getProps = (card, folder) => {
 }
 
 const getData = (card) => {
-  return getText(getProps(card))
+  return loadData(getProps(card))
 }
 
 const writeData = (card, folder) => {
