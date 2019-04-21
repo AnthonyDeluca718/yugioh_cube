@@ -9,23 +9,18 @@ const getText = ({ name, url, folder }) => {
   axios.get(url)
   .then((res) => {
     const $ = cheerio.load(res.data)
-    // console.log($)
-
-    // const $img = $('.cardtable-cardimage').find('img')
-    // const src = $img.attr('src').split('/revision')[0]
-    // const srcArray = src.split('.')
-    // const format = srcArray[srcArray.length - 1]
-    // request.get(src)
-    // .pipe(fs.createWriteStream(`./images/${folder}/${name}.${format}`))
 
     const $eng = $(".navbox-title:contains('English')").first()
-    // console.log( $eng.parent().parent().innerTtext() )
     const $rules = $eng.parent().parent().find('.navbox-list').first()
     $rules.find('br').replaceWith('\n')
     const text = $rules.text().trim()
 
+    const stats = $("th:contains('ATK / DEF')").parent().find("td").text().trim()
+
+
     fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify({
-      text: text
+      text,
+      stats
     }))
 
   })
@@ -49,4 +44,4 @@ const getData = (card, folder) => {
   getText(getProps(card, folder))
 }
 
-getData('Mirror Force', 'test')
+getData('Accel Synchron', 'test')
