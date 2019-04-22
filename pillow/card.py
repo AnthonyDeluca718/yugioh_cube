@@ -38,13 +38,13 @@ def add_text(data, image, output_name):
     draw.text((3, height - box_height), text_box, font=fnt, fill=(0, 0, 0))
   image.save(output_name)
 
+def save_image(name, data, src_folder, output_folder):
+  im_path = os.path.join(os.path.dirname(__file__), folder, data.name)
+  im = Image.open(im_path)
+  im = im.resize((353, 501))
 
-im_path = os.path.join(os.path.dirname(__file__), 'set-1-copy', 'Allure_of_Darkness.png')
-im = Image.open(im_path)
-im = im.resize((353, 501))
+  data_path = os.path.join(os.path.dirname(__file__), 'test', 'Allure_of_Darkness.json')
+  data_file = open(data_path, 'r')
+  data = json.load(data_file)
 
-data_path = os.path.join(os.path.dirname(__file__), 'test', 'Allure_of_Darkness.json')
-data_file = open(data_path, 'r')
-data = json.load(data_file)
-
-add_text(data, im, 'Allure2.png')
+  add_text(data, im, 'Allure2.png')
