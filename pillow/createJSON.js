@@ -1,4 +1,4 @@
-const getData = require('./getData')
+const { loadData, getProps } = require('./getData')
 const fs = require('fs')
 
 // const LineByLine = require('line-by-line')
@@ -15,12 +15,13 @@ const createJSON = (file, folder, name) => {
   const lines = fs.readFileSync(file, 'utf-8').split('\n').filter(Boolean)
 
   const promises = lines.map(line => {
-    return getData(line)
-      .then(data => cards[line] = data)
+    const props = getProps(line)
+    return loadData(props)
+      .then(data => cards[props.name] = data)
       .catch(() => console.log(error))
   });
 
   Promise.all(promises).then(() => fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify(cards, null, 4)))
 }
 
-createJSON('testList', 'test', 'cardlist')
+createJSON('testList', 'test2', 'cardlist')

@@ -1,0 +1,114 @@
+{
+    "Ally_of_Justice_Catastor": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nAt the start of the Damage Step, if this card battles a non-DARK monster: Destroy that monster.",
+        "stats": "2200 / 1200",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Black_Horn_of_Heaven": {
+        "card_type": "Trap",
+        "text": "When your opponent would Special Summon exactly 1 monster: Negate the Special Summon, and if you do, destroy it."
+    },
+    "Beast_King_Barbaros": {
+        "card_type": "Monster",
+        "text": "You can Normal Summon/Set this card without Tributing, but its original ATK becomes 1900. You can Tribute 3 monsters to Tribute Summon (but not Set) this card. If Summoned this way: Destroy all cards your opponent controls.",
+        "stats": "3000 / 1200",
+        "types": "Beast-Warrior / Effect"
+    },
+    "Black_Luster_Soldier_-_Envoy_of_the_Beginning": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. Once per turn, you can activate 1 of these effects.\n● Target 1 monster on the field; banish that target face-up. This card cannot attack the turn this effect is activated.\n● If this attacking card destroys an opponent's monster by battle, after damage calculation: It can make a second attack in a row.",
+        "stats": "3000 / 2500",
+        "types": "Warrior / Effect"
+    },
+    "Bacon_Saver": {
+        "card_type": "Monster",
+        "text": "During either player's Battle Step, while an attack is occurring: You can banish this card from your Graveyard; negate the attack. You can only use the effect of \"Bacon Saver\" once per Duel.",
+        "stats": "700 / 600",
+        "types": "Zombie / Effect"
+    },
+    "Beast_of_the_Pharaoh": {
+        "card_type": "Monster",
+        "text": "If this card is sent to the Graveyard for a Synchro Summon: You can target 1 Level 4 or lower Zombie-Type monster in your Graveyard; Special Summon that target.",
+        "stats": "400 / 600",
+        "types": "Zombie / Effect"
+    },
+    "Armory_Arm": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn, you can either: Target 1 monster on the field; equip this card to that target, OR: Unequip this card and Special Summon it in Attack Position. While equipped by this effect, that target gains 1000 ATK. If that target destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to the ATK of the destroyed monster in the Graveyard.",
+        "stats": "1800 / 1200",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Angel_Trumpeter": {
+        "card_type": "Monster",
+        "text": "This beautiful, fairy-like flower generates a delusional mist to keep intruders away from the deepest parts of the forest, where sacred beasts dwell.",
+        "stats": "1900 / 1600",
+        "types": "Plant / Tuner"
+    },
+    "Berserk_Gorilla": {
+        "card_type": "Monster",
+        "text": "If this card is in face-up Defense Position, destroy this card. This card must attack if able.",
+        "stats": "2000 / 1000",
+        "types": "Beast / Effect"
+    },
+    "Accel_Synchron": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn: You can send 1 \"Synchron\" monster from your Deck to the Graveyard, then activate 1 of these effects;\n● Increase this card's Level by the Level of the sent monster.\n● Reduce this card's Level by the Level of the sent monster.\nDuring your opponent's Main Phase, you can: Immediately after this effect resolves, Synchro Summon 1 Synchro Monster, using Materials including this card you control (this is a Quick Effect). You can only Synchro Summon \"Accel Synchron(s)\" once per turn.",
+        "stats": "500 / 2100",
+        "types": "Machine / Synchro / Tuner / Effect"
+    },
+    "Ash_Blossom_&_Joyous_Spring": {
+        "card_type": "Monster",
+        "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n● Add a card from the Deck to the hand.\n● Special Summon from the Deck.\n● Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "stats": "0 / 1800",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Armageddon_Knight": {
+        "card_type": "Monster",
+        "text": "When this card is Summoned: You can send 1 DARK monster from your Deck to the GY.",
+        "stats": "1400 / 1200",
+        "types": "Warrior / Effect"
+    },
+    "Arcanite_Magician": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner Spellcaster-Type monsters\nIf this card is Synchro Summoned: Place 2 Spell Counters on it. This card gains 1000 ATK for each Spell Counter on it. You can remove 1 Spell Counter from your field, then target 1 card your opponent controls; destroy that target.",
+        "stats": "400 / 1800",
+        "types": "Spellcaster / Synchro / Effect"
+    },
+    "Autonomous_Action_Unit": {
+        "card_type": "Spell",
+        "text": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target on your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster."
+    },
+    "Armades,_Keeper_of_Boundaries": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card attacks or is attacked, your opponent cannot activate cards or effects until the end of the Damage Step.",
+        "stats": "2300 / 1500",
+        "types": "Fiend / Synchro / Effect"
+    },
+    "Back_to_the_Front": {
+        "card_type": "Trap",
+        "text": "Target 1 monster in your GY; Special Summon it in Defense Position."
+    },
+    "Artifact_Moralltach": {
+        "card_type": "Monster",
+        "text": "You can Set this card from your hand to your Spell & Trap Zone as a Spell Card. During your opponent's turn, if this Set card in the Spell & Trap Zone is destroyed and sent to your Graveyard: Special Summon it. If this card is Special Summoned during your opponent's turn: You can destroy 1 face-up card your opponent controls.",
+        "stats": "2100 / 1400",
+        "types": "Fairy / Effect"
+    },
+    "Allure_of_Darkness": {
+        "card_type": "Spell",
+        "text": "Draw 2 cards, then banish 1 DARK monster from your hand, or, if you do not have any in your hand, send your entire hand to the GY."
+    },
+    "Black_Dragon_Collapserpent": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 LIGHT monster from your Graveyard, and cannot be Special Summoned by other ways. You can only Special Summon \"Black Dragon Collapserpent\" once per turn this way. If this card is sent from the field to the Graveyard: You can add 1 \"White Dragon Wyverburster\" from your Deck to your hand.",
+        "stats": "1800 / 1700",
+        "types": "Dragon / Effect"
+    },
+    "Bazoo_the_Soul_Eater": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can banish up to 3 monsters from your Graveyard; this card gains 300 ATK for each, until the end of your opponent's turn.",
+        "stats": "1600 / 900",
+        "types": "Beast / Effect"
+    }
+}

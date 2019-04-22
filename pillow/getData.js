@@ -65,6 +65,11 @@ const writeData = (card, folder) => {
   .catch(() => console.log('error'))
 }
 
-writeData('Trap Hole', 'test')
+// writeData('Trap Hole', 'test')
 
-module.exports = getData
+module.exports = {
+  getData,
+  loadData,
+  getProps,
+  writeData
+}
