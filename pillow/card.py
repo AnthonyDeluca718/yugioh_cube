@@ -39,12 +39,9 @@ def add_text(data, image, output_name):
   image.save(output_name)
 
 def save_image(name, data, src_folder, output_folder):
-  im_path = os.path.join(os.path.dirname(__file__), folder, data.name)
+  file_name = name + '.png'
+  im_path = os.path.join(os.path.dirname(__file__), src_folder, file_name)
   im = Image.open(im_path)
   im = im.resize((353, 501))
 
-  data_path = os.path.join(os.path.dirname(__file__), 'test', 'Allure_of_Darkness.json')
-  data_file = open(data_path, 'r')
-  data = json.load(data_file)
-
-  add_text(data, im, 'Allure2.png')
+  add_text(data, im, os.path.join(os.path.dirname(__file__), output_folder, file_name))
