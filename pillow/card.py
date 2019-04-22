@@ -22,7 +22,7 @@ def add_text(data, image, output_name):
   if card_type == 'Monster' and 'Synchro' in data['types'].split(' / '):
     text_content = " ".join(text_lines[slice(1, len(text_lines))])
     lines = textwrap.wrap(text_lines[0], char_limit) + textwrap.wrap(text_content, char_limit)
-  elif card_type == 'Monster':
+  elif card_type == 'Monster' or len(text) > 300:
     text_content = " ".join(text_lines)
     lines = textwrap.wrap(text_content, char_limit)
   else:
@@ -40,10 +40,14 @@ def add_text(data, image, output_name):
     draw.text((3, height - box_height), data['types'], font=fnt_black, fill=(0, 0, 0))
     draw.text((3, height - box_height + line_height_black), text_box, font=fnt, fill=(0, 0, 0))
     draw.text((3, height - line_height_black), data['stats'], font=fnt_black, fill=(0, 0, 0))
-  else:
-    box_height = max([(len(lines))*line_height, 120]) + 10
+  elif len(text) < 300:
+    box_height = max([(len(lines))*line_height_large, 120]) + 10
     draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
     draw.text((5, height - box_height + 10), text_box, font=fnt_large, fill=(0, 0, 0))
+  else:
+    box_height = max([(len(lines))*line_height, 130])
+    draw.rectangle([(0, height - box_height), (width, height)], (255, 255, 255))
+    draw.text((3, height - box_height), text_box, font=fnt, fill=(0, 0, 0))
   image.save(output_name)
 
 def save_image(name, data, src_folder, output_folder):
