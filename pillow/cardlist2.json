@@ -1,0 +1,10 @@
+{
+    "Heavy_Storm": {
+        "card_type": "Spell",
+        "text": "Destroy all Spell and Trap Cards on the field."
+    },
+    "Torrential_Tribute": {
+        "card_type": "Trap",
+        "text": "When a monster(s) is Summoned: Destroy all monsters on the field."
+    }
+}
