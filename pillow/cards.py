@@ -5,7 +5,7 @@ path = os.path.join(os.path.dirname(__file__), 'cardlist.json')
 data_file = open(path, 'r')
 data = json.load(data_file)
 
-start = 342
+start = 0
 keys = list(data.keys())
 for i in range(start, len(keys)):
   print(i)
