@@ -12,7 +12,7 @@ public class CubeFormatter
 	{
 		try
 		{
-			File directory = new File("images");
+			File directory = new File("pillow/set-1-output");
 			ArrayList<File> allImages = new ArrayList<File>();
 			File fileList[] = directory.listFiles();
 			for(int k = 0; k < fileList.length; ++k)
@@ -44,10 +44,10 @@ public class CubeFormatter
 					pageGraphics.fillRect(0, 0, 1275, 1650);
 				}
 				pageGraphics.setColor(new Color(0, 0, 0));
-				int x = 105 + (positionOnPage % 3) * 355;
-				int y = 70 + (positionOnPage / 3) * 503;
-				pageGraphics.fillRect(x, y, 355, 503);
-				pageGraphics.drawImage(card, (int) (x + 178.0 - 251.5 * card.getWidth() / card.getHeight()), y, (int) (x + 178.0 + 251.5 * card.getWidth() / card.getHeight()), y + 503, 0, 0, card.getWidth(), card.getHeight(), null);
+				int x = 106 + (positionOnPage % 3) * 353;
+				int y = 71 + (positionOnPage / 3) * 501;
+				pageGraphics.fillRect(x - 1, y - 1, 355, 503);
+				pageGraphics.drawImage(card, (int) (x + 177.0 - 250.5 * card.getWidth() / card.getHeight()), y, (int) (x + 177.0 + 250.5 * card.getWidth() / card.getHeight()), y + 501, 0, 0, card.getWidth(), card.getHeight(), null);
 				if(positionOnPage == 8)
 				{
 					ImageIO.write(page, "png", pageStream);
