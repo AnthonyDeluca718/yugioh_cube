@@ -1,43 +1,153 @@
 {
+    "Cosmic_Cyclone": {
+        "card_type": "Spell",
+        "text": "Pay 1000 LP, then target 1 Spell/Trap on the field; banish it."
+    },
+    "Mist_Wurm": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 2 or more non-Tuner monsters\nIf this card is Synchro Summoned: Target up to 3 cards your opponent controls; return those targets to the hand.",
+        "stats": "2500 / 1500",
+        "types": "Thunder / Synchro / Effect"
+    },
+    "Celestial_Double_Star_Shaman": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 non-Tuner monster\nWhen this card is Synchro Summoned: You can Special Summon up to 4 Level 2 non-Tuner monsters from your hand and/or Graveyard in Defense Position, but they have their effects negated, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Synchro Monsters. You can only use this effect of \"Celestial Double Star Shaman\" once per turn.",
+        "stats": "100 / 800",
+        "types": "Fairy / Synchro / Tuner / Effect"
+    },
     "Ally_of_Justice_Catastor": {
         "card_type": "Monster",
         "text": "1 Tuner + 1 or more non-Tuner monsters\nAt the start of the Damage Step, if this card battles a non-DARK monster: Destroy that monster.",
         "stats": "2200 / 1200",
         "types": "Machine / Synchro / Effect"
     },
-    "Black_Horn_of_Heaven": {
+    "Creature_Swap": {
+        "card_type": "Spell",
+        "text": "Each player chooses 1 monster they control and switches control of those monsters with each other. Those monsters cannot change their battle positions for the rest of this turn."
+    },
+    "Clear_Wing_Synchro_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nOnce per turn, when another Level 5 or higher monster activates its effect on the field (Quick Effect): You can negate the activation, and if you do, destroy it. Once per turn, when a monster effect is activated that targets 1 Level 5 or higher monster on the field (and no other cards) (Quick Effect): You can negate the activation, and if you do, destroy it. If this card's effect destroys a monster, this card gains ATK equal to the destroyed monster's original ATK until the end of this turn.",
+        "stats": "2500 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Confiscation": {
+        "card_type": "Spell",
+        "text": "Pay 1000 Life Points. Look at your opponent's hand, select 1 card in it and discard that card."
+    },
+    "My_Body_as_a_Shield": {
+        "card_type": "Spell",
+        "text": "When your opponent activates a Spell/Trap Card or monster effect that would destroy a monster(s) on the field (except during the Damage Step): Pay 1500 LP; negate the activation, and if you do, destroy it."
+    },
+    "Monster_Reborn": {
+        "card_type": "Spell",
+        "text": "Target 1 monster in either player's GY; Special Summon it."
+    },
+    "Spore": {
+        "card_type": "Monster",
+        "text": "If this card is in your Graveyard: You can banish 1 other Plant-Type monster from your Graveyard; Special Summon this card from your Graveyard and increase its Level by the Level of that banished monster. Each player can only activate the effect of \"Spore\" once per Duel.",
+        "stats": "400 / 800",
+        "types": "Plant / Tuner"
+    },
+    "Chaos_Dragon_Levianeer": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 3 LIGHT and/or DARK monsters from your GY. When Summoned this way: You can apply this effect, based on the Attribute(s) of monsters banished for the Special Summon, also this card cannot attack for the rest of this turn.\n● Only LIGHT: Special Summon 1 monster from your GY in Defense Position.\n● Only DARK: Shuffle 1 random card from your opponent's hand into the Deck.\n● Both LIGHT and DARK: Destroy up to 2 cards on the field.\nYou can only use this effect of \"Chaos Dragon Levianeer\" once per turn.",
+        "stats": "3000 / 0",
+        "types": "Dragon / Effect"
+    },
+    "Ceasefire": {
         "card_type": "Trap",
-        "text": "When your opponent would Special Summon exactly 1 monster: Negate the Special Summon, and if you do, destroy it."
+        "text": "If a face-down Defense Position monster or an Effect Monster is on the field: Change all face-down Defense Position monsters on the field to face-up Defense Position (Flip monsters' effects are not activated at this time), also inflict 500 damage to your opponent for each Effect Monster on the field."
     },
-    "Beast_King_Barbaros": {
+    "Electromagnetic_Turtle": {
         "card_type": "Monster",
-        "text": "You can Normal Summon/Set this card without Tributing, but its original ATK becomes 1900. You can Tribute 3 monsters to Tribute Summon (but not Set) this card. If Summoned this way: Destroy all cards your opponent controls.",
-        "stats": "3000 / 1200",
-        "types": "Beast-Warrior / Effect"
+        "text": "During your opponent's Battle Phase: You can banish this card from your Graveyard; end the Battle Phase (this is a Quick Effect). You can only use this effect of \"Electromagnetic Turtle\" once per Duel.",
+        "stats": "0 / 1800",
+        "types": "Machine / Effect"
     },
-    "Black_Luster_Soldier_-_Envoy_of_the_Beginning": {
-        "card_type": "Monster",
-        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. Once per turn, you can activate 1 of these effects.\n● Target 1 monster on the field; banish that target face-up. This card cannot attack the turn this effect is activated.\n● If this attacking card destroys an opponent's monster by battle, after damage calculation: It can make a second attack in a row.",
-        "stats": "3000 / 2500",
-        "types": "Warrior / Effect"
+    "Paleozoic_Olenoides": {
+        "card_type": "Trap",
+        "text": "Target 1 Spell/Trap Card on the field; destroy it. Once per Chain, when a Trap Card is activated while this card is in your Graveyard: Special Summon this card as a Normal Monster (Aqua-Type/WATER/Level 2/ATK 1200/DEF 0). (This card is NOT treated as a Trap Card.) If Summoned this way, this card is unaffected by monster effects, also banish it when it leaves the field."
     },
-    "Bacon_Saver": {
+    "Cockadoodledoo": {
         "card_type": "Monster",
-        "text": "During either player's Battle Step, while an attack is occurring: You can banish this card from your Graveyard; negate the attack. You can only use the effect of \"Bacon Saver\" once per Duel.",
-        "stats": "700 / 600",
+        "text": "If there are no monsters on the field, you can Special Summon this card (from your hand) as a Level 3 monster. If your opponent controls a monster and you control no cards, you can Special Summon this card (from your hand) as a Level 4 monster. If this face-up card would leave the field, banish it instead.",
+        "stats": "1600 / 2000",
+        "types": "Winged Beast / Tuner / Effect"
+    },
+    "Crimson_Blader": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card destroys an opponent's monster by battle and sends it to the Graveyard: Your opponent cannot Normal or Special Summon Level 5 or higher monsters during their next turn.",
+        "stats": "2800 / 2600",
+        "types": "Warrior / Synchro / Effect"
+    },
+    "Goblin_Zombie": {
+        "card_type": "Monster",
+        "text": "When this card inflicts battle damage to your opponent: Send the top card of their Deck to the Graveyard. When this card is sent from the field to the Graveyard: Add 1 Zombie-Type monster with 1200 or less DEF from your Deck to your hand.",
+        "stats": "1100 / 1050",
         "types": "Zombie / Effect"
     },
-    "Beast_of_the_Pharaoh": {
-        "card_type": "Monster",
-        "text": "If this card is sent to the Graveyard for a Synchro Summon: You can target 1 Level 4 or lower Zombie-Type monster in your Graveyard; Special Summon that target.",
-        "stats": "400 / 600",
-        "types": "Zombie / Effect"
+    "Paleozoic_Hallucigenia": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up monster on the field; its ATK/DEF become half its current ATK/DEF until the end of this turn. Once per Chain, when a Trap Card is activated while this card is in your GY: You can Special Summon this card as a Normal Monster (Aqua/WATER/Level 2/ATK 1200/DEF 0). (This card is NOT treated as a Trap.) If Summoned this way, this card is unaffected by monster effects, also banish it when it leaves the field."
     },
-    "Armory_Arm": {
+    "Oasis_of_Dragon_Souls": {
+        "card_type": "Trap",
+        "text": "Activate this card by targeting 1 monster in your Graveyard; Special Summon it in Defense Position. It becomes Wyrm-Type. When this card leaves the field, destroy that monster. When that monster leaves the field, destroy this card."
+    },
+    "Fire_Hand": {
         "card_type": "Monster",
-        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn, you can either: Target 1 monster on the field; equip this card to that target, OR: Unequip this card and Special Summon it in Attack Position. While equipped by this effect, that target gains 1000 ATK. If that target destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to the ATK of the destroyed monster in the Graveyard.",
-        "stats": "1800 / 1200",
-        "types": "Machine / Synchro / Effect"
+        "text": "When this card in your possession is destroyed by your opponent's card (by battle or card effect) and sent to your Graveyard: You can target 1 monster they control; destroy that target, then you can Special Summon 1 \"Ice Hand\" from your Deck.",
+        "stats": "1600 / 1000",
+        "types": "Pyro / Effect"
+    },
+    "Fossil_Dyna_Pachycephalo": {
+        "card_type": "Monster",
+        "text": "If this card is flipped face-up: Destroy all Special Summoned monsters on the field. Neither player can Special Summon monsters.",
+        "stats": "1200 / 1300",
+        "types": "Rock / Effect"
+    },
+    "The_Forceful_Sentry": {
+        "card_type": "Spell",
+        "text": "Look at your opponent's hand. Select 1 card among them and return it to his/her Deck. The Deck is then shuffled."
+    },
+    "Crystron_Quan": {
+        "card_type": "Monster",
+        "text": "During your opponent's Main Phase or Battle Phase: You can Special Summon 1 non-Tuner monster from your hand, but it has its effects negated (if any), and if you do, immediately after this effect resolves, Synchro Summon 1 Machine-Type Synchro Monster using only that monster and this card (this is a Quick Effect). You can only use this effect of \"Crystron Quan\" once per turn.",
+        "stats": "500 / 500",
+        "types": "Machine / Tuner / Effect"
+    },
+    "Crystron_Citree": {
+        "card_type": "Monster",
+        "text": "During your opponent's Main Phase or Battle Phase: You can target 1 non-Tuner monster in your Graveyard; Special Summon it, but it has its effects negated (if any), and if you do, immediately after this effect resolves, Synchro Summon 1 Machine-Type Synchro Monster using only that monster and this card (this is a Quick Effect). These Synchro Materials are banished instead of being sent to the Graveyard. You can only use this effect of \"Crystron Citree\" once per turn.",
+        "stats": "500 / 500",
+        "types": "Machine / Tuner / Effect"
+    },
+    "Floodgate_Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When your opponent Summons a monster(s): Change that monster(s) to face-down Defense Position. Monsters changed to face-down Defense Position by this effect cannot change their battle positions."
+    },
+    "Felis,_Lightsworn_Archer": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned by a card effect. If this card is sent from your Deck to the GY by a monster effect: Special Summon it. You can Tribute this card, then target 1 monster your opponent controls; destroy that target, then send the top 3 cards of your Deck to the GY.",
+        "stats": "1100 / 2000",
+        "types": "Beast-Warrior / Tuner / Effect"
+    },
+    "Monster_Reborn_Reborn": {
+        "card_type": "Spell",
+        "text": "Target 3 monsters in your GY; your opponent chooses 1, you Special Summon it, and if you do, banish the rest. You can only activate 1 \"Monster Reborn Reborn\" per turn."
+    },
+    "Coral_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nOnce per turn: You can discard 1 card, then target 1 card your opponent controls; destroy it. If this Synchro Summoned card is sent from the field to the GY: You can draw 1 card. You can only use this effect of \"Coral Dragon\" once per turn.",
+        "stats": "2400 / 500",
+        "types": "Dragon / Synchro / Tuner / Effect"
+    },
+    "Crane_Crane": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can target 1 Level 3 monster in your GY; Special Summon that target, but it has its effects negated. You can only use this effect of \"Crane Crane\" once per turn.",
+        "stats": "300 / 900",
+        "types": "Winged Beast / Effect"
     },
     "Angel_Trumpeter": {
         "card_type": "Monster",
@@ -45,11 +155,11 @@
         "stats": "1900 / 1600",
         "types": "Plant / Tuner"
     },
-    "Berserk_Gorilla": {
+    "Arcanite_Magician": {
         "card_type": "Monster",
-        "text": "If this card is in face-up Defense Position, destroy this card. This card must attack if able.",
-        "stats": "2000 / 1000",
-        "types": "Beast / Effect"
+        "text": "1 Tuner + 1 or more non-Tuner Spellcaster-Type monsters\nIf this card is Synchro Summoned: Place 2 Spell Counters on it. This card gains 1000 ATK for each Spell Counter on it. You can remove 1 Spell Counter from your field, then target 1 card your opponent controls; destroy that target.",
+        "stats": "400 / 1800",
+        "types": "Spellcaster / Synchro / Effect"
     },
     "Accel_Synchron": {
         "card_type": "Monster",
@@ -57,27 +167,45 @@
         "stats": "500 / 2100",
         "types": "Machine / Synchro / Tuner / Effect"
     },
-    "Ash_Blossom_&_Joyous_Spring": {
+    "Dark_Strike_Fighter": {
         "card_type": "Monster",
-        "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n● Add a card from the Deck to the hand.\n● Special Summon from the Deck.\n● Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
-        "stats": "0 / 1800",
-        "types": "Zombie / Tuner / Effect"
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nDuring your Main Phase 1: You can Tribute 1 monster; inflict damage to your opponent equal to the Tributed monster's Level on the field x 200. You can only use this effect of \"Dark Strike Fighter\" once per turn.",
+        "stats": "2600 / 1800",
+        "types": "Machine / Synchro / Effect"
     },
-    "Armageddon_Knight": {
+    "Wind-Up_Soldier": {
         "card_type": "Monster",
-        "text": "When this card is Summoned: You can send 1 DARK monster from your Deck to the GY.",
-        "stats": "1400 / 1200",
+        "text": "During your Main Phase: You can increase this card's Level by 1 and ATK by 400, until the End Phase. This effect can only be used once while this card is face-up on the field.",
+        "stats": "1800 / 1200",
         "types": "Warrior / Effect"
     },
-    "Arcanite_Magician": {
+    "Card_Guard": {
         "card_type": "Monster",
-        "text": "1 Tuner + 1 or more non-Tuner Spellcaster-Type monsters\nIf this card is Synchro Summoned: Place 2 Spell Counters on it. This card gains 1000 ATK for each Spell Counter on it. You can remove 1 Spell Counter from your field, then target 1 card your opponent controls; destroy that target.",
-        "stats": "400 / 1800",
-        "types": "Spellcaster / Synchro / Effect"
+        "text": "If this card is Normal or Special Summoned: Place 1 Guard Counter on it. This card gains 300 ATK for each Guard Counter on it. Once per turn: You can target 1 other face-up card you control; remove 1 Guard Counter from this card, and if you do, place 1 Guard Counter on that target (if that card would ever be destroyed, remove 1 Guard Counter from it instead).",
+        "stats": "1600 / 500",
+        "types": "Fiend / Effect"
     },
-    "Autonomous_Action_Unit": {
+    "Morphing_Jar": {
+        "card_type": "Monster",
+        "text": "FLIP: Both players discard their entire hands, then draw 5 cards.",
+        "stats": "700 / 600",
+        "types": "Rock / Effect"
+    },
+    "Change_of_Heart": {
         "card_type": "Spell",
-        "text": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target on your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster."
+        "text": "Target 1 monster your opponent controls; take control of it until the End Phase."
+    },
+    "Chaos_Sorcerer": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. Once per turn: You can target 1 face-up monster on the field; banish that target. This card cannot attack the turn you activate this effect.",
+        "stats": "2300 / 2000",
+        "types": "Spellcaster / Effect"
+    },
+    "Armory_Arm": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn, you can either: Target 1 monster on the field; equip this card to that target, OR: Unequip this card and Special Summon it in Attack Position. While equipped by this effect, that target gains 1000 ATK. If that target destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to the ATK of the destroyed monster in the Graveyard.",
+        "stats": "1800 / 1200",
+        "types": "Machine / Synchro / Effect"
     },
     "Armades,_Keeper_of_Boundaries": {
         "card_type": "Monster",
@@ -85,9 +213,113 @@
         "stats": "2300 / 1500",
         "types": "Fiend / Synchro / Effect"
     },
-    "Back_to_the_Front": {
+    "Armageddon_Knight": {
+        "card_type": "Monster",
+        "text": "When this card is Summoned: You can send 1 DARK monster from your Deck to the GY.",
+        "stats": "1400 / 1200",
+        "types": "Warrior / Effect"
+    },
+    "Brionac,_Dragon_of_the_Ice_Barrier": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nYou can discard any number of cards to the Graveyard, then target the same number of cards your opponent controls; return those cards to the hand. You can only use this effect of \"Brionac, Dragon of the Ice Barrier\" once per turn.",
+        "stats": "2300 / 1400",
+        "types": "Sea Serpent / Synchro / Effect"
+    },
+    "Compulsory_Evacuation_Device": {
         "card_type": "Trap",
-        "text": "Target 1 monster in your GY; Special Summon it in Defense Position."
+        "text": "Target 1 monster on the field; return that target to the hand."
+    },
+    "Foolish_Burial": {
+        "card_type": "Spell",
+        "text": "Send 1 monster from your Deck to the Graveyard."
+    },
+    "Card_Trooper": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can choose a number from 1 to 3, then send that many cards from the top of your Deck to the GY; this card gains 500 ATK for each card sent to the GY this way, until the end of this turn. If this card you control is destroyed and sent to your GY: Draw 1 card.",
+        "stats": "400 / 400",
+        "types": "Machine / Effect"
+    },
+    "Monster_Reincarnation": {
+        "card_type": "Spell",
+        "text": "Discard 1 card, then target 1 monster in your GY; add it to your hand."
+    },
+    "Mezuki": {
+        "card_type": "Monster",
+        "text": "You can banish this card from your Graveyard, then target 1 Zombie-Type monster in your Graveyard; Special Summon that target.",
+        "stats": "1700 / 800",
+        "types": "Zombie / Effect"
+    },
+    "Exarion_Universe": {
+        "card_type": "Monster",
+        "text": "During your Battle Step, if this card attacks a Defense Position monster: You can make this card lose exactly 400 ATK, and if it does, it will inflict piercing battle damage. These effects last until the end of this turn.",
+        "stats": "1800 / 1900",
+        "types": "Beast-Warrior / Effect"
+    },
+    "Celestia,_Lightsworn_Angel": {
+        "card_type": "Monster",
+        "text": "When you Tribute Summon this card by Tributing a \"Lightsworn\" monster: You can send the top 4 cards of your Deck to the GY, then target up to 2 cards your opponent controls; destroy those targets.",
+        "stats": "2300 / 200",
+        "types": "Fairy / Effect"
+    },
+    "Chaos_Hunter": {
+        "card_type": "Monster",
+        "text": "When your opponent Special Summons a monster (except during the Damage Step): You can discard 1 card; Special Summon this card from your hand. Your opponent cannot banish cards.",
+        "stats": "2500 / 1600",
+        "types": "Fiend / Effect"
+    },
+    "Chaos_Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When a LIGHT or DARK monster(s) would be Summoned: Pay 2000 LP; negate the Summon of the LIGHT and DARK monster(s), and if you do, banish it."
+    },
+    "Jet_Synchron": {
+        "card_type": "Monster",
+        "text": "If this card is sent to the Graveyard as a Synchro Material: You can add 1 \"Junk\" monster from your Deck to your hand. If this card is in your Graveyard: You can send 1 card from your hand to the Graveyard; Special Summon this card, but banish it when it leaves the field. You can only use 1 \"Jet Synchron\" effect per turn, and only once that turn.",
+        "stats": "500 / 0",
+        "types": "Machine / Tuner / Effect"
+    },
+    "Lyla,_Twilightsworn_Enchantress": {
+        "card_type": "Monster",
+        "text": "Once per turn, when a Spell/Trap Card or effect is activated (Quick Effect): You can banish 1 \"Lightsworn\" monster from your hand or GY, then target 1 face-up Spell/Trap on the field; destroy it. Once per turn, if your other \"Lightsworn\" monster's effect is activated: Send the top 3 cards of your Deck to the GY.",
+        "stats": "1700 / 200",
+        "types": "Spellcaster / Effect"
+    },
+    "Exiled_Force": {
+        "card_type": "Monster",
+        "text": "You can Tribute this card to target 1 monster on the field; destroy that target.",
+        "stats": "1000 / 1000",
+        "types": "Warrior / Effect"
+    },
+    "Chow_Chow_Chan": {
+        "card_type": "Monster",
+        "text": "When your opponent activates a Normal Trap Card in response to your monster's attack declaration targeting an opponent's monster: You can discard this card; negate the activation, and if you do, destroy that card (this is a Quick Effect).",
+        "stats": "800 / 800",
+        "types": "Beast / Effect"
+    },
+    "Ring_of_Destruction": {
+        "card_type": "Trap",
+        "text": "During your opponent's turn: Target 1 face-up monster your opponent controls whose ATK is less than or equal to their LP; destroy that face-up monster, and if you do, take damage equal to its original ATK, then inflict damage to your opponent, equal to the damage you took. You can only activate 1 \"Ring of Destruction\" per turn."
+    },
+    "Twin-Headed_Behemoth": {
+        "card_type": "Monster",
+        "text": "During the End Phase, if this card is in the Graveyard because it was destroyed on the field and sent there this turn: You can Special Summon this card, but its ATK and DEF become 1000. You can only use this effect of \"Twin-Headed Behemoth\" once per Duel.",
+        "stats": "1500 / 1200",
+        "types": "Dragon / Effect"
+    },
+    "Brain_Control": {
+        "card_type": "Spell",
+        "text": "Pay 800 LP, then target 1 face-up monster your opponent controls that can be Normal Summoned/Set; take control of that target until the End Phase."
+    },
+    "Dark_Valkyria": {
+        "card_type": "Monster",
+        "text": "This card is treated as a Normal Monster while face-up on the field or in the Graveyard. While this card is a Normal Monster on the field, you can Normal Summon it to have it become an Effect Monster with this effect.\n● Once, while this card is face-up on the field: You can place 1 Spell Counter on it. This card gains 300 ATK for each Spell Counter on it. You can remove 1 Spell Counter from this card, then target 1 monster on the field; destroy that target.",
+        "stats": "1800 / 1050",
+        "types": "Fairy / Gemini / Effect"
+    },
+    "Bacon_Saver": {
+        "card_type": "Monster",
+        "text": "During either player's Battle Step, while an attack is occurring: You can banish this card from your Graveyard; negate the attack. You can only use the effect of \"Bacon Saver\" once per Duel.",
+        "stats": "700 / 600",
+        "types": "Zombie / Effect"
     },
     "Artifact_Moralltach": {
         "card_type": "Monster",
@@ -95,9 +327,153 @@
         "stats": "2100 / 1400",
         "types": "Fairy / Effect"
     },
+    "Botanical_Lion": {
+        "card_type": "Monster",
+        "text": "This card gains 300 ATK for each face-up Plant-Type monster you control. Control of this face-up card on the field cannot switch.",
+        "stats": "1600 / 2000",
+        "types": "Plant / Effect"
+    },
+    "Blood_Mefist": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn, during your opponent's Standby Phase: You can inflict 300 damage to your opponent for each card your opponent controls. Each time your opponent Sets a Spell or Trap Card(s): Inflict 300 damage to your opponent.",
+        "stats": "2800 / 1300",
+        "types": "Fiend / Synchro / Effect"
+    },
+    "Blue_Thunder_T-45": {
+        "card_type": "Monster",
+        "text": "If this card destroys an opponent's monster by battle: Special Summon 1 \"Thunder Option Token\" (Machine-Type/LIGHT/Level 4/ATK 1500/DEF 1500). This Token cannot be Tributed for a Tribute Summon.",
+        "stats": "1700 / 1000",
+        "types": "Machine / Effect"
+    },
+    "Card_of_Demise": {
+        "card_type": "Spell",
+        "text": "Draw until you have 3 cards in your hand, also for the rest of this turn after this card resolves, your opponent takes no damage. During the End Phase of this turn, send your entire hand to the GY. You can only activate 1 \"Card of Demise\" per turn. You cannot Special Summon during the turn you activate this card."
+    },
+    "Beast_of_the_Pharaoh": {
+        "card_type": "Monster",
+        "text": "If this card is sent to the Graveyard for a Synchro Summon: You can target 1 Level 4 or lower Zombie-Type monster in your Graveyard; Special Summon that target.",
+        "stats": "400 / 600",
+        "types": "Zombie / Effect"
+    },
     "Allure_of_Darkness": {
         "card_type": "Spell",
         "text": "Draw 2 cards, then banish 1 DARK monster from your hand, or, if you do not have any in your hand, send your entire hand to the GY."
+    },
+    "Witch_of_the_Black_Forest": {
+        "card_type": "Monster",
+        "text": "If this card is sent from the field to the GY: Add 1 monster with 1500 or less DEF from your Deck to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only use this effect of \"Witch of the Black Forest\" once per turn.",
+        "stats": "1100 / 1200",
+        "types": "Spellcaster / Effect"
+    },
+    "Paleozoic_Eldonia": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up monster on the field; it gains 500 ATK/DEF until the end of this turn. Once per Chain, when a Trap Card is activated while this card is in your GY: You can Special Summon this card as a Normal Monster (Aqua/WATER/Level 2/ATK 1200/DEF 0). (This card is NOT treated as a Trap.) If Summoned this way, this card is unaffected by monster effects, also banish it when it leaves the field."
+    },
+    "Paleozoic_Dinomischus": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up card on the field; discard 1 card, and if you do, banish it. Once per Chain, when a Trap Card is activated while this card is in your GY: Special Summon this card as a Normal Monster (Aqua/WATER/Level 2/ATK 1200/DEF 0). (This card is NOT treated as a Trap.) If Summoned this way, this card is unaffected by monster effects, also banish it when it leaves the field."
+    },
+    "Sinister_Serpent": {
+        "card_type": "Monster",
+        "text": "During your Standby Phase, if this card is in your Graveyard: You can add it to your hand, also banish 1 \"Sinister Serpent\" from your Graveyard during your opponent's next End Phase. You can only use this effect of \"Sinister Serpent\" once per turn.",
+        "stats": "300 / 250",
+        "types": "Reptile / Effect"
+    },
+    "Berserk_Gorilla": {
+        "card_type": "Monster",
+        "text": "If this card is in face-up Defense Position, destroy this card. This card must attack if able.",
+        "stats": "2000 / 1000",
+        "types": "Beast / Effect"
+    },
+    "Autonomous_Action_Unit": {
+        "card_type": "Spell",
+        "text": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target on your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster."
+    },
+    "Ash_Blossom_&_Joyous_Spring": {
+        "card_type": "Monster",
+        "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n● Add a card from the Deck to the hand.\n● Special Summon from the Deck.\n● Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "stats": "0 / 1800",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Back_to_the_Front": {
+        "card_type": "Trap",
+        "text": "Target 1 monster in your GY; Special Summon it in Defense Position."
+    },
+    "Charge_of_the_Light_Brigade": {
+        "card_type": "Spell",
+        "text": "Send the top 3 cards of your Deck to the Graveyard; add 1 Level 4 or lower \"Lightsworn\" monster from your Deck to your hand."
+    },
+    "Cannon_Soldier": {
+        "card_type": "Monster",
+        "text": "You can Tribute 1 monster; inflict 500 damage to your opponent.",
+        "stats": "1400 / 1300",
+        "types": "Machine / Effect"
+    },
+    "Card_Destruction": {
+        "card_type": "Spell",
+        "text": "Each player discards their entire hand, then draws the same number of cards they discarded."
+    },
+    "Breakthrough_Skill": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up Effect Monster your opponent controls; that face-up monster your opponent controls has its effects negated until the end of this turn. During your turn, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Effect Monster your opponent controls; that target has its effects negated until the end of this turn."
+    },
+    "Call_of_the_Haunted": {
+        "card_type": "Trap",
+        "text": "Activate this card by targeting 1 monster in your GY; Special Summon that target in Attack Position. When this card leaves the field, destroy that target. When that target is destroyed, destroy this card."
+    },
+    "Bottomless_Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When your opponent Summons a monster(s) with 1500 or more ATK: Destroy that monster(s) with 1500 or more ATK, and if you do, banish it."
+    },
+    "Blade_Knight": {
+        "card_type": "Monster",
+        "text": "While you have 1 or less cards in your hand, this card gains 400 ATK. If you control no other monsters, the effects of Flip monsters destroyed by battle with this card are negated.",
+        "stats": "1600 / 1000",
+        "types": "Warrior / Effect"
+    },
+    "Blackwing_-_Zephyros_the_Elite": {
+        "card_type": "Monster",
+        "text": "If this card is in your GY: You can return 1 face-up card you control to the hand; Special Summon this card, and if you do, take 400 damage. You can only use this effect of \"Blackwing - Zephyros the Elite\" once per Duel.",
+        "stats": "1600 / 1000",
+        "types": "Winged Beast / Effect"
+    },
+    "Blackwing_-_Gale_the_Whirlwind": {
+        "card_type": "Monster",
+        "text": "If you control a \"Blackwing\" monster other than \"Blackwing - Gale the Whirlwind\", you can Special Summon this card (from your hand). Once per turn: You can target 1 face-up monster your opponent controls; that target's ATK and DEF become half its current ATK and DEF.",
+        "stats": "1300 / 400",
+        "types": "Winged Beast / Tuner / Effect"
+    },
+    "Book_of_Moon": {
+        "card_type": "Spell",
+        "text": "Target 1 face-up monster on the field; change that target to face-down Defense Position."
+    },
+    "Book_of_Life": {
+        "card_type": "Spell",
+        "text": "Target 1 Zombie monster in your GY and 1 monster in your opponent's GY; Special Summon the first target, also banish the second target."
+    },
+    "Black_Luster_Soldier_-_Envoy_of_the_Beginning": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. Once per turn, you can activate 1 of these effects.\n● Target 1 monster on the field; banish that target face-up. This card cannot attack the turn this effect is activated.\n● If this attacking card destroys an opponent's monster by battle, after damage calculation: It can make a second attack in a row.",
+        "stats": "3000 / 2500",
+        "types": "Warrior / Effect"
+    },
+    "Blackwing_-_Nothung_the_Starlight": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is Special Summoned: Inflict 800 damage to your opponent, then 1 face-up monster your opponent controls loses 800 ATK and DEF. You can only use this effect of \"Blackwing - Nothung the Starlight\" once per turn. During your Main Phase, you can Normal Summon 1 \"Blackwing\" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.)",
+        "stats": "2400 / 1600",
+        "types": "Winged Beast / Synchro / Effect"
+    },
+    "Caius_the_Shadow_Monarch": {
+        "card_type": "Monster",
+        "text": "If this card is Tribute Summoned: Target 1 card on the field; banish that target, and if you do, inflict 1000 damage to your opponent if it is a DARK monster.",
+        "stats": "2400 / 1000",
+        "types": "Fiend / Effect"
+    },
+    "Cardcar_D": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. During your Main Phase 1, if this card was Normal Summoned this turn: You can Tribute this card; draw 2 cards, then it becomes the End Phase. You cannot Special Summon during the turn you activate this effect.",
+        "stats": "800 / 400",
+        "types": "Machine / Effect"
     },
     "Black_Dragon_Collapserpent": {
         "card_type": "Monster",
@@ -105,10 +481,1476 @@
         "stats": "1800 / 1700",
         "types": "Dragon / Effect"
     },
+    "Black_Rose_Moonlight_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is Special Summoned, or a Level 5 or higher monster(s) is Special Summoned to your opponent's side of the field: Target 1 Special Summoned monster your opponent controls; return that target to the hand. You can only use this effect of \"Black Rose Moonlight Dragon\" once per turn.",
+        "stats": "2400 / 1800",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Black_Rose_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nWhen this card is Synchro Summoned: You can destroy all cards on the field. Once per turn: You can banish 1 Plant-Type monster from your Graveyard, then target 1 Defense Position monster your opponent controls; change that target to face-up Attack Position, and if you do, its ATK becomes 0 until the end of this turn.",
+        "stats": "2400 / 1800",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Dark_Magician_of_Chaos": {
+        "card_type": "Monster",
+        "text": "During the End Phase, if this card was Normal or Special Summoned this turn: You can target 1 Spell Card in your Graveyard; add it to your hand. You can only use this effect of \"Dark Magician of Chaos\" once per turn. If this card destroys  an opponent's monster by battle, after damage calculation: Banish that opponent's monster. If this face-up card would leave the field, banish it instead.",
+        "stats": "2800 / 2600",
+        "types": "Spellcaster / Effect"
+    },
+    "Dark_Dust_Spirit": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. During the End Phase of the turn this card is Normal Summoned or flipped face-up: Return it to the hand. When this card is Normal Summoned or flipped face-up: Destroy all other face-up monsters on the field.",
+        "stats": "2200 / 1800",
+        "types": "Zombie / Spirit"
+    },
+    "Sangan": {
+        "card_type": "Monster",
+        "text": "If this card is sent from the field to the GY: Add 1 monster with 1500 or less ATK from your Deck to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only use this effect of \"Sangan\" once per turn.",
+        "stats": "1000 / 600",
+        "types": "Fiend / Effect"
+    },
+    "Goyo_Guardian": {
+        "card_type": "Monster",
+        "text": "1 EARTH Tuner + 1 or more non-Tuner monsters\nWhen this card destroys an opponent's monster by battle and sends it to the Graveyard: You can Special Summon that monster to your field in Defense Position.",
+        "stats": "2800 / 2000",
+        "types": "Warrior / Synchro / Effect"
+    },
+    "Fissure": {
+        "card_type": "Spell",
+        "text": "Destroy the 1 face-up monster your opponent controls that has the lowest ATK (your choice, if tied)."
+    },
+    "Evilswarm_Ketos": {
+        "card_type": "Monster",
+        "text": "You can Tribute this card, then target 1 Spell/Trap Card your opponent controls; destroy that target.",
+        "stats": "1750 / 1050",
+        "types": "Aqua / Effect"
+    },
+    "Beast_King_Barbaros": {
+        "card_type": "Monster",
+        "text": "You can Normal Summon/Set this card without Tributing, but its original ATK becomes 1900. You can Tribute 3 monsters to Tribute Summon (but not Set) this card. If Summoned this way: Destroy all cards your opponent controls.",
+        "stats": "3000 / 1200",
+        "types": "Beast-Warrior / Effect"
+    },
+    "Doppelwarrior": {
+        "card_type": "Monster",
+        "text": "When a monster(s) is Special Summoned from your Graveyard (except during the Damage Step): You can Special Summon this card from your hand. If this card is sent to the Graveyard as a Synchro Material: You can Special Summon 2 \"Doppel Tokens\" (Warrior-Type/DARK/Level 1/ATK 400/DEF 400) in Attack Position.",
+        "stats": "800 / 800",
+        "types": "Warrior / Effect"
+    },
+    "Don_Zaloog": {
+        "card_type": "Monster",
+        "text": "When this card inflicts Battle Damage to your opponent, you can activate 1 of these effects:\n● Discard 1 random card from their hand.\n● Send the top 2 cards of their Deck to the Graveyard.",
+        "stats": "1400 / 1500",
+        "types": "Warrior / Effect"
+    },
+    "Swift_Scarecrow": {
+        "card_type": "Monster",
+        "text": "When an opponent's monster declares a direct attack (Quick Effect): You can discard this card; negate the attack, then end the Battle Phase.",
+        "stats": "0 / 0",
+        "types": "Machine / Effect"
+    },
+    "Crystron_Rosenix": {
+        "card_type": "Monster",
+        "text": "You can target 1 face-up card you control; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Machine-Type Synchro Monsters, also, destroy that card, and if you do, Special Summon 1 \"Crystron\" Tuner from your Deck. You can banish this card from your Graveyard; Special Summon 1 \"Crystron Token\" (Machine-Type/WATER/Level 1/ATK 0/DEF 0), but it cannot be Tributed. You can only use 1 \"Crystron Rosenix\" effect per turn, and only once that turn.",
+        "stats": "1800 / 1000",
+        "types": "Machine / Effect"
+    },
+    "Doomcaliber_Knight": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. During either player's turn, if a monster effect is activated: Tribute this face-up card; negate the activation, and if you do, destroy that monster.",
+        "stats": "1900 / 1800",
+        "types": "Fiend / Effect"
+    },
+    "Dimensional_Prison": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Target that attacking monster; banish that target."
+    },
+    "Dimension_Fusion": {
+        "card_type": "Spell",
+        "text": "Pay 2000 Life Points. Both players Special Summon as many of their removed from play monsters as possible."
+    },
+    "Time_Seal": {
+        "card_type": "Trap",
+        "text": "Skip the Draw Phase of your opponent's next turn."
+    },
+    "Star_Eater": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nMust be Synchro Summoned, and cannot be Special Summoned by other ways. This card's Synchro Summon cannot be negated. When Synchro Summoned, cards and effects cannot be activated. If this card attacks, it is unaffected by other card effects until the end of the Damage Step.",
+        "stats": "3200 / 2800",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Thunder_King_Rai-Oh": {
+        "card_type": "Monster",
+        "text": "Neither player can add cards from their Deck to their hand except by drawing them. During either player's turn, when your opponent would Special Summon exactly 1 monster: You can send this face-up card to the Graveyard; negate the Special Summon, and if you do, destroy it.",
+        "stats": "1900 / 800",
+        "types": "Thunder / Effect"
+    },
+    "The_Deep_Grave": {
+        "card_type": "Trap",
+        "text": "Target 1 monster in either player's GY; during your next Standby Phase, Special Summon it from the GY."
+    },
+    "Storming_Mirror_Force": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Return all your opponent's Attack Position monsters to the hand."
+    },
+    "Dekoichi_the_Battlechanted_Locomotive": {
+        "card_type": "Monster",
+        "text": "FLIP: Draw 1 card, then draw 1 additional card for each face-up \"Bokoichi the Freightening Car\" you control.",
+        "stats": "1400 / 1000",
+        "types": "Machine / Effect"
+    },
+    "Fairy_Tail_-_Snow": {
+        "card_type": "Monster",
+        "text": "If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change it to face-down Defense Position. If this card is in your GY (Quick Effect): You can banish 7 other cards from your hand, field, and/or GY; Special Summon this card.",
+        "stats": "1850 / 1000",
+        "types": "Spellcaster / Effect"
+    },
+    "Dark_Simorgh": {
+        "card_type": "Monster",
+        "text": "While face-up on the field, this card is also WIND-Attribute. You can banish 1 DARK monster and 1 WIND monster from your Graveyard; Special Summon this card from your hand. You can banish 1 DARK monster and 1 WIND monster from your hand; Special Summon this card from your Graveyard. Your opponent cannot Set any cards on the field.",
+        "stats": "2700 / 1000",
+        "types": "Winged Beast / Effect"
+    },
+    "Destrudo_the_Lost_Dragon's_Frisson": {
+        "card_type": "Monster",
+        "text": "If this card is in your hand or GY: You can pay half your LP, then target 1 Level 6 or lower monster you control; Special Summon this card, and if you do, this card's Level is reduced by the Level of the targeted monster, also place this card on the bottom of the Deck if it leaves the field. You can only use this effect of \"Destrudo the Lost Dragon's Frisson\" once per turn.",
+        "stats": "1000 / 3000",
+        "types": "Dragon / Tuner / Effect"
+    },
+    "Crystron_Thystvern": {
+        "card_type": "Monster",
+        "text": "You can target 1 face-up card you control; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Machine-Type Synchro Monsters, also, destroy that card, and if you do, Special Summon 1 \"Crystron\" Tuner from your Deck. You can banish this card from your Graveyard; add 1 \"Crystron\" monster from your Deck to your hand, except \"Crystron Thystvern\". You can only use 1 \"Crystron Thystvern\" effect per turn, and only once that turn.",
+        "stats": "1500 / 1500",
+        "types": "Machine / Effect"
+    },
+    "T.G._Striker": {
+        "card_type": "Monster",
+        "text": "If your opponent controls a monster and you control no monsters, you can Special Summon this card (from your hand). During the End Phase, if this card is in the Graveyard because it was destroyed on the field and sent there this turn: You can add 1 \"T.G.\" monster from your Deck to your hand, except \"T.G. Striker\".",
+        "stats": "800 / 0",
+        "types": "Warrior / Tuner / Effect"
+    },
+    "Drowning_Mirror_Force": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares a direct attack: Shuffle all your opponent's Attack Position monsters into the Deck."
+    },
+    "Crystron_Quandax": {
+        "card_type": "Monster",
+        "text": "1 Tuner  + 1+ non-Tuner monsters\nOnce per Chain, during your opponent's Main Phase or Battle Phase, you can (Quick Effect): Immediately after this effect resolves, Synchro Summon 1 Synchro Monster, using materials including this card you control. If this Synchro Summoned card is destroyed by battle or card effect: You can target 1 \"Crystron\" monster in your GY, except a Synchro Monster; Special Summon it.",
+        "stats": "1800 / 2000",
+        "types": "Machine / Synchro / Tuner / Effect"
+    },
+    "Crystron_Quariongandrax": {
+        "card_type": "Monster",
+        "text": "2 or more Tuners + 1 non-Tuner monster\nIf this card is Synchro Summoned: You can target monsters your opponent controls and/or in their Graveyard, up to the number of Synchro Materials used for the Synchro Summon of this card; banish them. If this Synchro Summoned card is destroyed by battle or card effect: You can target 1 banished monster, except this card; Special Summon it to your field.",
+        "stats": "3000 / 3000",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Ehren,_Lightsworn_Monk": {
+        "card_type": "Monster",
+        "text": "If this card attacks a Defense Position monster, before damage calculation: Shuffle that monster into the Deck. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the Graveyard.",
+        "stats": "1600 / 1000",
+        "types": "Warrior / Effect"
+    },
+    "Crystron_Phoenix": {
+        "card_type": "Monster",
+        "text": "1 Tuner Synchro Monster + 1 or more non-Tuner Synchro Monsters\nIf this card is Synchro Summoned: You can banish all Spell and Trap Cards your opponent controls and in their Graveyard. If this Synchro Summoned card is destroyed by battle or card effect: You can target 1 other monster in your Graveyard; Special Summon it.",
+        "stats": "2800 / 2000",
+        "types": "Machine / Synchro / Effect"
+    },
+    "D.D._Scout_Plane": {
+        "card_type": "Monster",
+        "text": "Once per turn, during the End Phase, if this card is currently banished, and was banished this turn: Special Summon it in face-up Attack Position.",
+        "stats": "800 / 1200",
+        "types": "Machine / Effect"
+    },
+    "T.G._Hyper_Librarian": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf a monster is Synchro Summoned: Draw 1 card. This card must be face-up on the field to activate and to resolve this effect.",
+        "stats": "2400 / 1800",
+        "types": "Spellcaster / Synchro / Effect"
+    },
+    "Stardust_Charge_Warrior": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nWhen this card is Synchro Summoned: You can draw 1 card. You can only use this effect of \"Stardust Charge Warrior\" once per turn. This card can attack all Special Summoned monsters your opponent controls, once each.",
+        "stats": "2000 / 1300",
+        "types": "Warrior / Synchro / Effect"
+    },
+    "Speedroid_Menko": {
+        "card_type": "Monster",
+        "text": "When an opponent's monster declares a direct attack while this card is in your hand: You can Special Summon this card in Attack Position, and if you do, change all face-up monsters your opponent controls to Defense Position.",
+        "stats": "100 / 2000",
+        "types": "Machine / Effect"
+    },
+    "Soul_Taker": {
+        "card_type": "Spell",
+        "text": "Target 1 face-up monster your opponent controls; destroy that target, then your opponent gains 1000 LP."
+    },
+    "Vampire_Scarlet_Scourge": {
+        "card_type": "Monster",
+        "text": "If this card is Normal or Special Summoned: You can pay 1000 LP, then target 1 \"Vampire\" monster in your GY, except \"Vampire Scarlet Scourge\"; Special Summon it, but it cannot attack this turn. You can only use this effect of \"Vampire Scarlet Scourge\" once per turn. At the end of the Battle Phase, if this card destroyed any monster(s) by battle: You can Special Summon them from the GYs to your field.",
+        "stats": "2200 / 2200",
+        "types": "Zombie / Effect"
+    },
+    "Dawn_Knight": {
+        "card_type": "Monster",
+        "text": "If this card is sent from the field to the Graveyard: You can send 1 LIGHT monster from your Deck to the Graveyard. If this card is sent from your Deck to the Graveyard: Target 1 LIGHT monster in your Graveyard; place that target on the top of your Deck. You can only use 1 \"Dawn Knight\" effect per turn, and only once that turn.",
+        "stats": "1400 / 1200",
+        "types": "Warrior / Effect"
+    },
+    "Fabled_Raven": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can discard any number of cards, and if you do, this card gains 1 Level and 400 ATK for each discarded card, until the end of this turn.",
+        "stats": "1300 / 1000",
+        "types": "Fiend / Tuner"
+    },
+    "Speedroid_Tri-Eyed_Dice": {
+        "card_type": "Monster",
+        "text": "During your opponent's turn: You can banish this card from your Graveyard; negate the next attack this turn from a monster your opponent controls (this is a Quick Effect).",
+        "stats": "300 / 1500",
+        "types": "Machine / Tuner / Effect"
+    },
+    "Denko_Sekka": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. While you control no Set Spells/Traps, neither player can Set Spells/Traps nor activate Spell/Trap Cards that are Set on the field.",
+        "stats": "1700 / 1000",
+        "types": "Thunder / Effect"
+    },
+    "Heavy_Storm_Duster": {
+        "card_type": "Trap",
+        "text": "Target up to 2 Spells/Traps on the field; destroy them. You cannot conduct your Battle Phase the turn you activate this card."
+    },
+    "Genomix_Fighter": {
+        "card_type": "Monster",
+        "text": "You can Normal Summon this card without Tributing, but its original ATK is halved and its Level becomes 3. Once per turn: You can declare 1 Monster Type; if this card is used as a Synchro Material Monster this turn, treat this card and the other Synchro Material Monsters as that Monster Type for that Synchro Summon. If you activate this effect, you cannot Normal or Special Summon monsters for the rest of this turn, except monsters with the declared Monster Type.",
+        "stats": "2200 / 1100",
+        "types": "Psychic / Tuner / Effect"
+    },
+    "Galaxy_Cyclone": {
+        "card_type": "Spell",
+        "text": "Target 1 Set Spell/Trap Card on the field; destroy it. During your Main Phase, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Spell/Trap Card on the field; destroy it. You can only use this effect of \"Galaxy Cyclone\" once per turn."
+    },
+    "Gozuki": {
+        "card_type": "Monster",
+        "text": "During your Main Phase: You can send 1 Zombie monster from your Deck to the GY. If this card is sent to the GY: You can banish 1 Zombie monster from your GY, except \"Gozuki\"; Special Summon 1 Zombie monster from your hand. You can only use each effect of \"Gozuki\" once per turn.",
+        "stats": "1700 / 800",
+        "types": "Zombie / Effect"
+    },
+    "Goyo_Predator": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nWhen this card destroys an opponent's monster by battle and sends it to the Graveyard: You can Special Summon that monster to your side of the field, but any battle damage it inflicts to a player is halved. You can only use this effect of \"Goyo Predator\" once per turn.",
+        "stats": "2400 / 1200",
+        "types": "Warrior / Synchro / Effect"
+    },
+    "Formula_Synchron": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 non-Tuner monster\nWhen this card is Synchro Summoned: You can draw 1 card. Once per Chain, during your opponent's Main Phase, you can: Immediately after this effect resolves, Synchro Summon using this card you control (this is a Quick Effect).",
+        "stats": "200 / 1500",
+        "types": "Machine / Synchro / Tuner / Effect"
+    },
+    "Glow-Up_Bulb": {
+        "card_type": "Monster",
+        "text": "If this card is in your GY: You can send the top card of your Deck to the GY, and if you do, Special Summon this card. You can only use this effect of \"Glow-Up Bulb\" once per Duel.",
+        "stats": "100 / 100",
+        "types": "Plant / Tuner / Effect"
+    },
+    "Graydle_Eagle": {
+        "card_type": "Monster",
+        "text": "If this card in your Monster Zone is destroyed by battle or monster effect and sent to your Graveyard: You can target 1 face-up monster your opponent controls; equip this card to that target. While this card is equipped to a monster by this effect, take control of that monster. When this card leaves the field, destroy the equipped monster.",
+        "stats": "1500 / 500",
+        "types": "Aqua / Effect"
+    },
+    "Gigantes": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 EARTH monster from your Graveyard. If this card is destroyed by battle and sent to the Graveyard: Destroy all Spell and Trap Cards on the field.",
+        "stats": "1900 / 1300",
+        "types": "Rock / Effect"
+    },
+    "Gigastone_Omega": {
+        "card_type": "Monster",
+        "text": "This card cannot be Normal Summoned or Set. This card can only be Special Summoned by removing from play 2 EARTH monsters from your Graveyard. When this face-up card you control is sent to the Graveyard by a card effect, destroy all Spell and Trap Cards your opponent controls.",
+        "stats": "1000 / 2300",
+        "types": "Rock / Effect"
+    },
+    "Ghost_Belle_&_Haunted_Mansion": {
+        "card_type": "Monster",
+        "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate the activation.\n● Add a card from the GY to the hand, Deck, and/or Extra Deck.\n● Special Summon a Monster Card(s) from the GY.\n● Banish a card(s) from the GY.\nYou can only use this effect of \"Ghost Belle & Haunted Mansion\" once per turn.",
+        "stats": "0 / 1800",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Ghostrick_Jackfrost": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned, unless you control a \"Ghostrick\" monster. Once per turn: You can change this card to face-down Defense Position. When an opponent's monster declares a direct attack: You can change that opponent's monster to face-down Defense Position, and if you do, Special Summon this card from your hand in face-down Defense Position.",
+        "stats": "800 / 100",
+        "types": "Fiend / Effect"
+    },
+    "Ghost_Ship": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned or Set. Must first be Special Summoned (from your hand) by banishing 1 LIGHT monster from your Graveyard.",
+        "stats": "1900 / 1000",
+        "types": "Fiend / Effect"
+    },
+    "Ice_Hand": {
+        "card_type": "Monster",
+        "text": "When this card in your possession is destroyed by your opponent's card (by battle or card effect) and sent to your Graveyard: You can target 1 Spell/Trap Card they control; destroy that target, then you can Special Summon 1 \"Fire Hand\" from your Deck.",
+        "stats": "1400 / 1600",
+        "types": "Aqua / Effect"
+    },
+    "Glow-Up_Bloom": {
+        "card_type": "Monster",
+        "text": "If this card is sent to the GY: You can banish this card from the GY; you cannot Special Summon monsters for the rest of this turn, except Zombie monsters, also add 1 Level 5 or higher Zombie monster from your Deck to your hand, or, if “Zombie World” is in a Field Zone, you can Special Summon 1 Level 5 or higher Zombie monster from your Deck, instead. You can only use this effect of \"Glow-Up Bloom\" once per turn.",
+        "stats": "0 / 0",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Gene-Warped_Warwolf": {
+        "card_type": "Monster",
+        "text": "This warwolf was given incalculable strength through horrific genetic manipulation. Its gentle nature was completely wiped out, and it now lives only to unleash destruction.",
+        "stats": "2000 / 100",
+        "types": ""
+    },
+    "Jain,_Twilightsworn_General": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can banish 1 \"Lightsworn\" monster from your hand or GY, then target 1 face-up monster on the field; it loses ATK and DEF equal to the banished monster's Level x 300, until the end of this turn. Once per turn, if your other \"Lightsworn\" monster's effect is activated: Send the top 2 cards of your Deck to the GY.",
+        "stats": "1800 / 1200",
+        "types": "Warrior / Effect"
+    },
+    "Herald_of_Creation": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can discard 1 card, then target 1 Level 7 or higher monster in your Graveyard; add that target to your hand.",
+        "stats": "1800 / 600",
+        "types": "Spellcaster / Effect"
+    },
+    "Lonefire_Blossom": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can Tribute 1 face-up Plant-Type monster; Special Summon 1 Plant-Type monster from your Deck.",
+        "stats": "500 / 1400",
+        "types": "Plant / Effect"
+    },
+    "Linkslayer": {
+        "card_type": "Monster",
+        "text": "If you control no monsters, you can Special Summon this card (from your hand). Once per turn: You can discard up to 2 cards, then target that many Spells/Traps on the field; destroy them.",
+        "stats": "2000 / 600",
+        "types": "Cyberse / Effect"
+    },
+    "Lightray_Diabolos": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by having 5 or more LIGHT monsters with different names in your Graveyard. Once per turn: You can banish 1 LIGHT monster from your Graveyard, then target 1 Set card your opponent controls; reveal that target, then place that target on either the top or bottom of the Deck.",
+        "stats": "2800 / 1000",
+        "types": "Dragon / Effect"
+    },
+    "Lord_Gaia_the_Fierce_Knight": {
+        "card_type": "Monster",
+        "text": "If your opponent controls a monster and you control no monsters, you can Special Summon this card (from your hand). Once per turn, if a monster(s) with ATK higher than this card is Special Summoned to your opponent's field (except during the Damage Step): You can make this card gain 700 ATK until the end of this turn.",
+        "stats": "2300 / 2100",
+        "types": "Warrior / Effect"
+    },
+    "Hammer_Shot": {
+        "card_type": "Spell",
+        "text": "Destroy 1 face-up Attack Position monster with the highest ATK. (If it is a tie, you get to choose.)"
+    },
+    "Last_Will": {
+        "card_type": "Spell",
+        "text": "If a monster on your side of the field was sent to your Graveyard this turn, you can Special Summon 1 monster with an ATK of 1500 points or less from your Deck once during this turn. Then shuffle your Deck."
+    },
+    "Masked_Chameleon": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned if you control a Level 5 or higher monster. When this card is Normal Summoned: You can target 1 monster with 0 DEF in your Graveyard; Special Summon that target in face-up Defense Position. Its effects are negated. You cannot Special Summon any other monsters, except from the Extra Deck, during the turn you activate this effect.",
+        "stats": "1600 / 1100",
+        "types": "Reptile / Tuner / Effect"
+    },
+    "Kamion,_the_Timelord": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned from the Deck. If you control no monsters, you can Normal Summon this card without Tributing. Cannot be destroyed by battle or card effects. You take no battle damage from attacks involving this card. At the end of the Battle Phase, if this card battled: Shuffle 1 card your opponent controls into the Deck, and if you do, inflict 500 damage to your opponent. Neither player can activate cards or effects in response to this effect's activation. Once per turn, during your Standby Phase: Shuffle this card into the Deck.",
+        "stats": "0 / 0",
+        "types": "Fairy / Effect"
+    },
+    "Krebons": {
+        "card_type": "Monster",
+        "text": "When this card is targeted for an attack: You can pay 800 LP; negate the attack.",
+        "stats": "1200 / 400",
+        "types": "Psychic / Tuner / Effect"
+    },
+    "Kaiser_Vorse_Raider": {
+        "card_type": "Monster",
+        "text": "If you control no monsters, you can Special Summon this card (from your hand). If this card destroys an opponent's monster by battle: This card gains 500 ATK. If this card is destroyed by battle: The monster that destroyed it loses 500 ATK.",
+        "stats": "1900 / 1200",
+        "types": "Beast-Warrior / Effect"
+    },
+    "Juragedo": {
+        "card_type": "Monster",
+        "text": "During either player's Battle Step (Quick Effect): You can Special Summon this card from your hand, and if you do, gain 1000 LP. You can only use this effect of \"Juragedo\" once per turn. (Quick Effect): You can Tribute this card, then target 1 face-up monster you control; it gains 1000 ATK until the end of the next turn.",
+        "stats": "1700 / 1300",
+        "types": "Fiend / Effect"
+    },
+    "Kuribandit": {
+        "card_type": "Monster",
+        "text": "During the End Phase, if this card was Normal Summoned this turn: You can Tribute this card; excavate the top 5 cards of your Deck, you can add 1 excavated Spell/Trap to your hand, also send the remaining cards to the GY.",
+        "stats": "1000 / 700",
+        "types": "Fiend / Effect"
+    },
+    "Majiosheldon": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned, except by its own effect. If this card is Tributed for a Tribute Summon, during your next Standby Phase: You can Special Summon this card from your Graveyard. You cannot Special Summon monsters from the Extra Deck during the turn you activate this effect.",
+        "stats": "800 / 2000",
+        "types": "Warrior / Effect"
+    },
+    "Kuraz_the_Light_Monarch": {
+        "card_type": "Monster",
+        "text": "When this card is Normal or Special Summoned: You can target up to 2 cards on the field; destroy those targets, and if you do, each player can draw 1 card for each of the cards they controlled that was destroyed by this effect. This card cannot attack during the turn it is Normal or Special Summoned.",
+        "stats": "2400 / 1000",
+        "types": "Warrior / Effect"
+    },
+    "Lost_Wind": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up Special Summoned monster on the field; it has its effects negated, also its original ATK is halved. If a monster is Special Summoned from your opponent's Extra Deck, while this card is in the GY (except during the Damage Step): You can Set this card, but banish it when it leaves the field."
+    },
+    "Michael,_the_Arch-Lightsworn": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner LIGHT monsters\nOnce per turn: You can pay 1000 LP, then target 1 card on the field; banish that target. When this card is destroyed: You can target any number of other \"Lightsworn\" monsters in your Graveyard; shuffle them into the Deck, and if you do, you gain 300 LP for each returned card. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the Graveyard.",
+        "stats": "2600 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Mind_Control": {
+        "card_type": "Spell",
+        "text": "Target 1 monster your opponent controls; until the End Phase, take control of that target, but it cannot declare an attack or be Tributed."
+    },
+    "Minerva,_Lightsworn_Maiden": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can add 1 LIGHT Dragon-Type monster from your Deck to your hand, whose Level is less than or equal to the total number of \"Lightsworn\" monsters with different names in your Graveyard. If this card is sent from the hand or Deck to the Graveyard: Send the top card of your Deck to the Graveyard. During each of your End Phases: Send the top 2 cards of your Deck to the Graveyard.",
+        "stats": "800 / 200",
+        "types": "Spellcaster / Tuner"
+    },
+    "Mathematician": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can send 1 Level 4 or lower monster from your Deck to the GY. When this card is destroyed by battle and sent to the GY: You can draw 1 card.",
+        "stats": "1500 / 500",
+        "types": "Spellcaster / Effect"
+    },
+    "Newdoria": {
+        "card_type": "Monster",
+        "text": "When this card is destroyed by battle and sent to the Graveyard: Target 1 monster on the field; destroy that target.",
+        "stats": "1200 / 800",
+        "types": "Fiend / Effect"
+    },
+    "Martial_Metal_Marcher": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Synchro Summoned: You can target 1 Tuner in your GY; Special Summon it in Defense Position, but negate its effects. You can only use this effect of “Martial Metal Marcher” once per turn. A Synchro Monster that used this card as Synchro Material is treated as a Tuner while face-up on the field.",
+        "stats": "500 / 2200",
+        "types": "Machine / Synchro / Tuner / Effect"
+    },
+    "Night_Beam": {
+        "card_type": "Spell",
+        "text": "Target 1 Set Spell/Trap your opponent controls; destroy that target. Your opponent cannot activate the targeted card in response to this card's activation."
+    },
+    "Necroworld_Banshee": {
+        "card_type": "Monster",
+        "text": "Neither player can target “Zombie World” in the Field Zone with card effects, also it cannot be destroyed by card effects. (Quick Effect): You can banish this face-up card from your field or GY; activate 1 “Zombie World” from your hand or Deck. You can only use this effect of \"Necroworld Banshee\" once per turn.",
+        "stats": "1800 / 200",
+        "types": "Zombie / Effect"
+    },
+    "Orbital_Hydralander": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 5 or more monsters in your GY, and no monsters in your GY with the same name. Once per turn (Quick Effect): You can send the top 3 cards of your Deck to the GY; destroy 1 card on the field. You must have at least 2 monsters in your GY, and no monsters in your GY with the same name, to activate and to resolve this effect.",
+        "stats": "3000 / 1500",
+        "types": "Machine / Effect"
+    },
+    "Painful_Choice": {
+        "card_type": "Spell",
+        "text": "Select 5 cards from your Deck and show them to your opponent. Your opponent selects 1 card among them. Add that card to your hand and discard the remaining cards to the Graveyard."
+    },
+    "Peropero_Cerperus": {
+        "card_type": "Monster",
+        "text": "If you take damage by battle or by an opponent's card effect while this card is in the Graveyard: You can banish this card from the Graveyard, then target 1 card on the field; destroy it.",
+        "stats": "0 / 1800",
+        "types": "Beast / Effect"
+    },
+    "Paleozoic_Canadia": {
+        "card_type": "Trap",
+        "text": "Target 1 face-up monster your opponent controls; change it to face-down Defense Position. Once per Chain, when a Trap Card is activated while this card is in your GY: You can Special Summon this card as a Normal Monster (Aqua/WATER/Level 2/ATK 1200/DEF 0). (This card is NOT treated as a Trap.) If Summoned this way, this card is unaffected by monster effects, also banish it when it leaves the field."
+    },
+    "One_for_One": {
+        "card_type": "Spell",
+        "text": "Send 1 monster from your hand to the Graveyard; Special Summon 1 Level 1 monster from your hand or Deck."
+    },
+    "Nobleman_of_Extermination": {
+        "card_type": "Spell",
+        "text": "Select, destroy, and remove from play 1 face-down Spell or Trap Card. If it was a Trap Card, both players must remove from play all copies of that card from their Decks."
+    },
+    "Pain_Painter": {
+        "card_type": "Monster",
+        "text": "While this card is face-up on the field, its name is treated as \"Plaguespreader Zombie\". Once per turn: You can target up to 2 face-up Zombie-Type monsters you control, except this card; they become Level 2 until the End Phase. They cannot be used as Synchro Material Monsters, except for the Synchro Summon of a Zombie-Type monster.",
+        "stats": "400 / 200",
+        "types": "Zombie / Tuner"
+    },
+    "Red_Resonator": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can Special Summon 1 Level 4 or lower monster from your hand. When this card is Special Summoned: You can target 1 face-up monster on the field; gain LP equal to its ATK. You can only use this effect of \"Red Resonator\" once per turn.",
+        "stats": "600 / 200",
+        "types": "Fiend / Tuner / Effect"
+    },
+    "Rainbow_Kuriboh": {
+        "card_type": "Monster",
+        "text": "You can only use each effect of \"Rainbow Kuriboh\" once per turn.\n● When an opponent's monster declares an attack: You can target that attacking monster; equip this card from your hand to that monster. It cannot attack.\n● When an opponent's monster declares a direct attack while this card is in your Graveyard: You can Special Summon this card, but banish it when it leaves the field.",
+        "stats": "100 / 100",
+        "types": "Fiend / Effect"
+    },
+    "Quillbolt_Hedgehog": {
+        "card_type": "Monster",
+        "text": "If this card is in your Graveyard: You can Special Summon this card, but banish it when it leaves the field. You must control a Tuner monster to activate and to resolve this effect.",
+        "stats": "800 / 800",
+        "types": "Machine / Effect"
+    },
+    "PSY-Framelord_Omega": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nOnce per turn, during the Main Phase (Quick Effect): You can banish both this face-up card from the field and 1 random card from your opponent's hand, face-up, until your next Standby Phase. Once per turn, during your opponent's Standby Phase: You can target 1 banished card; return it to the GY. If this card is in your GY: You can target 1 other card in the GY; shuffle both that card and this card from the GY into the Deck.",
+        "stats": "2800 / 2200",
+        "types": "Psychic / Synchro / Effect"
+    },
+    "Old_Entity_Hastorr": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is sent from the Monster Zone to the Graveyard: You can target 1 face-up monster your opponent controls; equip this card from your Graveyard to that monster. That monster cannot attack, also its effects are negated. If this card leaves the field while equipped to an opponent's monster by this effect: Take control of the monster this card was equipped to.",
+        "stats": "2300 / 1000",
+        "types": "Reptile / Synchro / Effect"
+    },
+    "Shiny_Black_\"C\"": {
+        "card_type": "Monster",
+        "text": "During either player's turn, when exactly 1 Synchro Monster is Special Summoned to your opponent's side of the field: You can banish this card from your Graveyard to target that face-up Synchro Monster; destroy that target.",
+        "stats": "200 / 500",
+        "types": "Insect / Effect"
+    },
+    "Scrap_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nOnce per turn: You can target 1 card you control and 1 card your opponent controls; destroy them. When this card in your possession is destroyed by your opponent's card and sent to your GY: Target 1 non-Synchro \"Scrap\" monster in your GY; Special Summon that target.",
+        "stats": "2800 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Shaddoll_Dragon": {
+        "card_type": "Monster",
+        "text": "FLIP: You can target 1 card your opponent controls; return it to the hand.\nIf this card is sent to the Graveyard by a card effect: You can target 1 Spell/Trap Card on the field; destroy it. You can only use 1 \"Shaddoll Dragon\" effect per turn, and only once that turn.",
+        "stats": "1900 / 0",
+        "types": "Spellcaster / Flip / Effect"
+    },
+    "Phonon_Pulse_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nWhen this card is Synchro Summoned: You can declare a Level from 1 to 3; the Level of this card becomes that Level, also you cannot Special Summon for the rest of this turn, except for a Synchro Summon using this card as a Synchro Material Monster. You can only Special Summon \"Phonon Pulse Dragon(s)\" once per turn.",
+        "stats": "1900 / 800",
+        "types": "Dragon / Synchro / Tuner / Effect"
+    },
+    "Scrap_Goblin": {
+        "card_type": "Monster",
+        "text": "This card cannot be destroyed by battle. If this face-up Defense Position card is selected as an attack target, destroy this card at the end of the Battle Phase. If this card is destroyed by the effect of a \"Scrap\" card and sent to the Graveyard, you can select 1 \"Scrap\" monster in your Graveyard, except \"Scrap Goblin\" and add it to your hand.",
+        "stats": "0 / 500",
+        "types": "Beast-Warrior / Tuner"
+    },
+    "Scapeghost": {
+        "card_type": "Monster",
+        "text": "FLIP: You can Special Summon any number of \"Black Sheep Tokens\" (Zombie/DARK/Level 1/ATK 0/DEF 0).",
+        "stats": "0 / 0",
+        "types": "Zombie / Flip / Tuner / Effect"
+    },
+    "Revived_King_Ha_Des": {
+        "card_type": "Monster",
+        "text": "\"Plaguespreader Zombie\" + 1 or more non-Tuner Zombie-Type monsters\nNegate the effects of Effect Monsters destroyed by battle with Zombie-Type monsters you control.",
+        "stats": "2450 / 0",
+        "types": "Zombie / Synchro / Effect"
+    },
+    "Road_Synchron": {
+        "card_type": "Monster",
+        "text": "When using this card as Synchro Material for the Synchro Summon of a monster other than \"Road Warrior\", reduce this card's Level by 2. If this card attacks, at the end of the Damage Step: Increase its Level by 1 until the end of this turn.",
+        "stats": "1600 / 800",
+        "types": "Machine / Tuner / Effect"
+    },
+    "Redox,_Dragon_Ruler_of_Boulders": {
+        "card_type": "Monster",
+        "text": "If this card is in your hand or Graveyard: You can banish a total of 2 EARTH and/or Dragon-Type monsters from your hand and/or Graveyard, except this card; Special Summon this card. During your opponent's End Phase, if this card was Special Summoned: Return it to the hand. You can discard this card and 1 EARTH monster to the Graveyard, then target 1 monster in your Graveyard; Special Summon that target. If this card is banished: You can add 1 EARTH Dragon-Type monster from your Deck to your hand. You can only use 1 \"Redox, Dragon Ruler of Boulders\" effect per turn, and only once that turn.",
+        "stats": "1600 / 3000",
+        "types": "Dragon / Effect"
+    },
+    "Snipe_Hunter": {
+        "card_type": "Monster",
+        "text": "You can discard 1 card, then target 1 card on the field; roll a six-sided die, and destroy that target unless you roll a 1 or 6.",
+        "stats": "1500 / 600",
+        "types": "Fiend / Effect"
+    },
+    "Solemn_Strike": {
+        "card_type": "Trap",
+        "text": "When a monster(s) would be Special Summoned, OR a monster effect is activated: Pay 1500 LP; negate the Summon or activation, and if you do, destroy that card."
+    },
+    "Samurai_Destroyer": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nIf this card battles an opponent's monster, your opponent cannot activate cards or effects until the end of the Damage Step, also that opponent's monster has its effects negated during the Battle Phase only. If this face-up card in its owner's control leaves the field because of an opponent's card effect: You can target 1 Machine monster in your GY; Special Summon it.",
+        "stats": "2600 / 1400",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Red-Eyes_Zombie_Necro_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner  monsters\nGains 100 ATK/DEF for each Zombie monster on the field and in the GYs. When another Zombie monster is destroyed by battle: You can Special Summon 1 Zombie monster from either player's GY to your field. You can only use this effect of \"Red-Eyes Zombie Necro Dragon\" once per turn.",
+        "stats": "2400 / 2000",
+        "types": "Zombie / Synchro / Effect"
+    },
+    "Tribe-Infecting_Virus": {
+        "card_type": "Monster",
+        "text": "Discard 1 card from your hand and declare 1 Type of monster. Destroy all face-up monsters of the declared Type on the field.",
+        "stats": "1600 / 1000",
+        "types": "Aqua / Effect"
+    },
+    "Snowman_Eater": {
+        "card_type": "Monster",
+        "text": "When this card is flipped face-up: Target 1 face-up monster on the field; destroy that target.",
+        "stats": "0 / 1900",
+        "types": "Aqua / Effect"
+    },
+    "Tuning_Gum": {
+        "card_type": "Monster",
+        "text": "You can target 1 face-up monster you control; that face-up monster is treated as a Tuner this turn. You can only use this effect of \"Tuning Gum\" once per turn. You can only attack with Synchro Monsters during the turn you activate this effect. During either player's turn, when a card or effect is activated that targets exactly 1 Synchro Monster you control (and no other cards): You can banish this card from your Graveyard; negate the activation.",
+        "stats": "400 / 1200",
+        "types": "Fiend / Tuner / Effect"
+    },
+    "Time-Space_Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When your opponent Special Summons a monster(s) from the hand or Extra Deck: Shuffle that monster(s) into the Deck, then you lose 1000 LP for each returned monster."
+    },
+    "D.D._Crow": {
+        "card_type": "Monster",
+        "text": "(Quick Effect): You can discard this card to the GY, then target 1 card in your opponent's GY; banish that target.",
+        "stats": "100 / 100",
+        "types": "Winged Beast / Effect"
+    },
+    "Elemental_HERO_Stratos": {
+        "card_type": "Monster",
+        "text": "When this card is Normal or Special Summoned: You can activate 1 of these effects.\n● You can destroy Spell/Trap Cards on the field, up to the number of \"HERO\" monsters you control, except this card.\n● Add 1 \"HERO\" monster from your Deck to your hand.",
+        "stats": "1800 / 300",
+        "types": "Warrior / Effect"
+    },
+    "Cyber_Dragon": {
+        "card_type": "Monster",
+        "text": "If only your opponent controls a monster, you can Special Summon this card (from your hand).",
+        "stats": "2100 / 1600",
+        "types": "Machine / Effect"
+    },
+    "Soul_Exchange": {
+        "card_type": "Spell",
+        "text": "Target 1 monster your opponent controls; this turn, if you Tribute a monster, you must Tribute that monster, as if you controlled it. You cannot conduct your Battle Phase the turn you activate this card."
+    },
+    "Destiny_HERO_-_Disk_Commander": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned from the GY the turn this card was sent to the GY. If this card is Special Summoned from the GY: You can draw 2 cards. You can only use this effect of \"Destiny HERO - Disk Commander\" once per Duel.",
+        "stats": "300 / 300",
+        "types": "Warrior / Effect"
+    },
+    "Dark_Armed_Dragon": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having exactly 3 DARK monsters in your GY. You can banish 1 DARK monster from your GY, then target 1 card on the field; destroy that target.",
+        "stats": "2800 / 1000",
+        "types": "Dragon / Effect"
+    },
+    "Effect_Veiler": {
+        "card_type": "Monster",
+        "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; that face-up monster your opponent controls has its effects negated until the end of this turn.",
+        "stats": "0 / 0",
+        "types": "Spellcaster / Tuner / Effect"
+    },
+    "Threatening_Roar": {
+        "card_type": "Trap",
+        "text": "Your opponent cannot declare an attack this turn."
+    },
+    "Drillroid": {
+        "card_type": "Monster",
+        "text": "Before damage calculation, if this card attacks a Defense Position monster: Destroy that monster.",
+        "stats": "1600 / 1600",
+        "types": "Machine / Effect"
+    },
+    "Darkflare_Dragon": {
+        "card_type": "Monster",
+        "text": "You can Special Summon this card (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. Once per turn: You can send 1 Dragon-Type monster from your hand and 1 Dragon-Type monster from your Deck to the Graveyard, then target 1 card in either Graveyard; banish that target.",
+        "stats": "2400 / 1200",
+        "types": "Dragon / Effect"
+    },
+    "D.D._Warrior_Lady": {
+        "card_type": "Monster",
+        "text": "After damage calculation, when this card battles an opponent's monster: You can banish that monster, also banish this card.",
+        "stats": "1500 / 1600",
+        "types": "Warrior / Effect"
+    },
+    "Spirit_Reaper": {
+        "card_type": "Monster",
+        "text": "Cannot be destroyed by battle. After resolving a card effect that targets this face-up card, destroy this card. When this card inflicts battle damage to your opponent by a direct attack: Discard 1 random card from their hand.",
+        "stats": "300 / 200",
+        "types": "Zombie / Effect"
+    },
+    "Enemy_Controller": {
+        "card_type": "Spell",
+        "text": "Activate 1 of these effects.\n● Target 1 face-up monster your opponent controls; change that target's battle position.\n● Tribute 1 monster, then target 1 face-up monster your opponent controls; take control of that target until the End Phase."
+    },
+    "Cyber_Jar": {
+        "card_type": "Monster",
+        "text": "FLIP: Destroy all monsters on the field, then both players reveal the top 5 cards from their Decks, then Special Summon all revealed Level 4 or lower monsters in face-up Attack Position or face-down Defense Position, also add any remaining cards to their hand. (If either player has less than 5 cards in their Deck, reveal as many as possible.)",
+        "stats": "900 / 900",
+        "types": "Rock / Effect"
+    },
+    "Dark_Hole": {
+        "card_type": "Spell",
+        "text": "Destroy all monsters on the field."
+    },
+    "Solemn_Warning": {
+        "card_type": "Trap",
+        "text": "When a monster(s) would be Summoned, OR when a Spell/Trap Card, or monster effect, is activated that includes an effect that Special Summons a monster(s): Pay 2000 LP; negate the Summon or activation, and if you do, destroy that card."
+    },
+    "Swords_of_Revealing_Light": {
+        "card_type": "Spell",
+        "text": "After this card's activation, it remains on the field, but destroy it during the End Phase of your opponent's 3rd turn. When this card is activated: If your opponent controls a face-down monster, flip all monsters they control face-up. While this card is face-up on the field, your opponent's monsters cannot declare an attack."
+    },
+    "Steamroid": {
+        "card_type": "Monster",
+        "text": "If this card attacks an opponent's monster, this card gains 500 ATK during the Damage Step only. If this card is attacked by an opponent's monster, this card loses 500 ATK during the Damage Step only.",
+        "stats": "1800 / 1800",
+        "types": "Machine / Effect"
+    },
+    "Eclipse_Wyvern": {
+        "card_type": "Monster",
+        "text": "If this card is sent to the Graveyard: Banish 1 Level 7 or higher LIGHT or DARK Dragon-Type monster from your Deck. If this card is banished from your Graveyard: You can add the monster banished by this card's effect to your hand.",
+        "stats": "1600 / 1000",
+        "types": "Dragon / Effect"
+    },
+    "Dust_Tornado": {
+        "card_type": "Trap",
+        "text": "Target 1 Spell/Trap Card your opponent controls; destroy that target, then you can Set 1 Spell/Trap Card from your hand."
+    },
+    "D.D._Assailant": {
+        "card_type": "Monster",
+        "text": "After damage calculation, when this card is destroyed by battle with an opponent's monster: Banish that monster, also banish this card.",
+        "stats": "1700 / 1600",
+        "types": "Warrior / Effect"
+    },
+    "Evilswarm_O'lantern": {
+        "card_type": "Monster",
+        "text": "You can Tribute this card, then target 1 face-up monster your opponent controls; destroy that target.",
+        "stats": "1650 / 1250",
+        "types": "Pyro / Effect"
+    },
+    "Thought_Ruler_Archfiend": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card destroys a monster by battle and sends it to the Graveyard: Gain LP equal to that monster's original ATK in the Graveyard. During either player's turn, when a Spell/Trap Card is activated that targets exactly 1 Psychic-Type monster (and no other cards): You can pay 1000 LP; negate the activation, and if you do, destroy it.",
+        "stats": "2700 / 2300",
+        "types": "Psychic / Synchro / Effect"
+    },
+    "Elemental_HERO_Neos_Alius": {
+        "card_type": "Monster",
+        "text": "This card is treated as a Normal Monster while face-up on the field or in the Graveyard. While this card is a Normal Monster on the field, you can Normal Summon it to have it become an Effect Monster with this effect.\n● This card's name becomes \"Elemental HERO Neos\" while it is on the field.",
+        "stats": "1900 / 1300",
+        "types": "Warrior / Gemini / Effect"
+    },
+    "Dark_End_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner DARK monsters\nOnce per turn: You can target 1 monster your opponent controls; this card loses 500 ATK and DEF, and you send that target to the Graveyard.",
+        "stats": "2600 / 2100",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Thestalos_the_Firestorm_Monarch": {
+        "card_type": "Monster",
+        "text": "If this card is Tribute Summoned: Discard 1 random card from your opponent's hand, then, if it was a Monster Card, inflict damage to your opponent equal to its original Level x 100.",
+        "stats": "2400 / 1000",
+        "types": "Pyro / Effect"
+    },
+    "The_Monarchs_Stormforth": {
+        "card_type": "Spell",
+        "text": "Once during this turn, if you would Tribute a monster for a Tribute Summon, you can Tribute 1 monster your opponent controls even though you do not control it. You can only activate 1 \"The Monarchs Stormforth\" per turn. During the turn you activate this card, you cannot Special Summon monsters from the Extra Deck."
+    },
+    "Stardust_Dragon": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nDuring either player's turn, when a card or effect is activated that would destroy a card(s) on the field: You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your Graveyard.",
+        "stats": "2500 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Cyber_Valley": {
+        "card_type": "Monster",
+        "text": "You can use 1 of these effects.\n● When this card is targeted for an attack by an opponent's monster: You can banish this card; draw 1 card, then end the Battle Phase.\n● You can target 1 face-up monster you control and this card; banish both that target and this card, then draw 2 cards.\n● You can target 1 card in your GY; banish both this card and 1 card from your hand, then place that target on top of the Deck.",
+        "stats": "0 / 0",
+        "types": "Machine / Effect"
+    },
+    "Dark_Nephthys": {
+        "card_type": "Monster",
+        "text": "If you have 3 or more DARK monsters in your Graveyard and this card in your hand: You can banish 2 of them from your Graveyard; send this card from your hand to the Graveyard. During your next Standby Phase after this card was sent to the Graveyard by this effect: Special Summon this card from the Graveyard. When this card is Special Summoned: Target 1 Spell/Trap Card on the field; destroy that target.",
+        "stats": "2400 / 1600",
+        "types": "Winged Beast / Effect"
+    },
+    "Darklord_Zerato": {
+        "card_type": "Monster",
+        "text": "If you have 4 or more DARK monsters with different names in your Graveyard, you can Tribute Summon this card by Tributing 1 DARK monster. You can send 1 DARK monster from your hand to the Graveyard; destroy all monsters your opponent controls. Once per turn, during the End Phase, if this effect was activated this turn: Destroy this card.",
+        "stats": "2800 / 2300",
+        "types": "Fairy / Effect"
+    },
+    "Crystron_Ametrix": {
+        "card_type": "Monster",
+        "text": "1 Tuner  + 1 or more non-Tuner monsters\nIf this card is Synchro Summoned: You can change all face-up Special Summoned monsters your opponent controls to Defense Position. If this Synchro Summoned card is destroyed by battle or card effect: You can target 1 \"Crystron\" monster in your Graveyard, except a Synchro Monster; Special Summon it.",
+        "stats": "2500 / 1500",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Black_Horn_of_Heaven": {
+        "card_type": "Trap",
+        "text": "When your opponent would Special Summon exactly 1 monster: Negate the Special Summon, and if you do, destroy it."
+    },
+    "Granmarg_the_Rock_Monarch": {
+        "card_type": "Monster",
+        "text": "If this card is Tribute Summoned: Target 1 Set card on the field; destroy that target.",
+        "stats": "2400 / 1000",
+        "types": "Rock / Effect"
+    },
+    "Gold_Sarcophagus": {
+        "card_type": "Spell",
+        "text": "Banish 1 card from your Deck, face-up. During your second Standby Phase after this card's activation, add that card to your hand."
+    },
+    "Graceful_Charity": {
+        "card_type": "Spell",
+        "text": "Draw 3 cards, then discard 2 cards."
+    },
+    "Gorz_the_Emissary_of_Darkness": {
+        "card_type": "Monster",
+        "text": "When you take damage from a card in your opponent's possession: You can Special Summon this card from your hand. You must control no cards to activate and to resolve this effect. If Summoned this way, activate the appropriate effect, based on the type of damage:\n● Battle damage: Special Summon 1 \"Emissary of Darkness Token\" (Fairy-Type/LIGHT/Level 7/ATK ?/DEF ?). Its ATK and DEF are each equal to the amount of battle damage you took.\n● Effect damage: Inflict damage to your opponent equal to the amount of damage you took.",
+        "stats": "2700 / 2500",
+        "types": "Fiend / Effect"
+    },
+    "Garoth,_Lightsworn_Warrior": {
+        "card_type": "Monster",
+        "text": "Each time a card(s) is sent from your Deck to the GY by the effect of a \"Lightsworn\" monster you control, except \"Garoth, Lightsworn Warrior\": Send the top 2 cards of your Deck to the GY, then draw 1 card for each \"Lightsworn\" monster sent to the GY by this effect.",
+        "stats": "1850 / 1300",
+        "types": "Warrior / Effect"
+    },
+    "Giant_Trunade": {
+        "card_type": "Spell",
+        "text": "Return all Spell and Trap Cards on the field to the hand."
+    },
+    "Jinzo": {
+        "card_type": "Monster",
+        "text": "Trap Cards, and their effects on the field, cannot be activated. Negate all Trap effects on the field.",
+        "stats": "2400 / 1500",
+        "types": "Machine / Effect"
+    },
+    "Jain,_Lightsworn_Paladin": {
+        "card_type": "Monster",
+        "text": "If this card attacks an opponent's monster, it gains 300 ATK during the Damage Step only. Once per turn, during your End Phase: Send the top 2 cards of your Deck to the Graveyard.",
+        "stats": "1800 / 1200",
+        "types": "Warrior / Effect"
+    },
+    "Giant_Rat": {
+        "card_type": "Monster",
+        "text": "When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 EARTH monster with 1500 or less ATK from your Deck, in Attack Position.",
+        "stats": "1400 / 1450",
+        "types": "Beast / Effect"
+    },
+    "Hot_Red_Dragon_Archfiend": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn, during your Main Phase 1: You can destroy all other face-up Attack Position monsters on the field. Monsters other than this card cannot attack the turn you activate this effect.",
+        "stats": "3000 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Hi-Speedroid_Chanbara": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1+ non-Tuner monsters\nThis card can make a second attack during each Battle Phase. At the start of the Damage Step, if this card battles: It gains 200 ATK. If this card is sent to the GY: You can target 1 of your banished \"Speedroid\" cards; add it to your hand. You can only Special Summon \"Hi-Speedroid Chanbara(s)\" once per turn.",
+        "stats": "2000 / 1000",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Honest": {
+        "card_type": "Monster",
+        "text": "During your Main Phase: You can return this face-up card from the field to the hand. During the Damage Step, when a LIGHT monster you control battles (Quick Effect): You can send this card from your hand to the GY; that monster gains ATK equal to the ATK of the opponent's monster it is battling, until the end of this turn.",
+        "stats": "1100 / 1900",
+        "types": "Fairy / Effect"
+    },
+    "Hi-Speedroid_Kendama": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card attacks a Defense Position monster, inflict piercing battle damage to your opponent. You can only use each of the following effects of \"Hi-Speedroid Kendama\" once per turn.\n● You can banish 1 Machine-Type monster from your Graveyard; inflict 500 damage to your opponent.\n● If this card is in your Graveyard and you control no cards: You can Special Summon this card. You cannot Normal Summon/Set the turn you activate this effect.",
+        "stats": "2200 / 1600",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Lightpulsar_Dragon": {
+        "card_type": "Monster",
+        "text": "You can Special Summon this card (from your hand) by banishing 1 LIGHT and 1 DARK monster from your Graveyard. You can Special Summon this card (from your Graveyard) by sending 1 LIGHT and 1 DARK monster from your hand to the Graveyard. When this card is sent from the field to the Graveyard: You can target 1 Level 5 or higher DARK Dragon-Type monster in your Graveyard; Special Summon that target.",
+        "stats": "2500 / 1500",
+        "types": "Dragon / Effect"
+    },
+    "Light_and_Darkness_Dragon": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. While face-up on the field, this card is also DARK-Attribute. Once per Chain, during either player's turn, when a Spell Card, Trap Card, or monster effect is activated: This card loses exactly 500 ATK and DEF and that activation is negated. When this card is destroyed and sent to the Graveyard: Target 1 monster in your Graveyard (if possible); destroy all cards you control, also Special Summon that monster (if any).",
+        "stats": "2800 / 2400",
+        "types": "Dragon / Effect"
+    },
+    "Magical_Merchant": {
+        "card_type": "Monster",
+        "text": "FLIP: Excavate cards from the top of your Deck until you excavate a Spell/Trap, then add that card to your hand, also send the remaining cards to the GY.",
+        "stats": "200 / 700",
+        "types": "Insect / Effect"
+    },
+    "Junk_Synchron": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can target 1 Level 2 or lower monster in your Graveyard; Special Summon that target in Defense Position, but it has its effects negated.",
+        "stats": "1300 / 500",
+        "types": "Warrior / Tuner / Effect"
+    },
+    "Lightning_Vortex": {
+        "card_type": "Spell",
+        "text": "Discard 1 card; destroy all face-up monsters your opponent controls."
+    },
+    "Mask_of_Darkness": {
+        "card_type": "Monster",
+        "text": "FLIP: Target 1 Trap Card in your Graveyard; add that target to your hand.",
+        "stats": "900 / 400",
+        "types": "Fiend / Effect"
+    },
+    "Magic_Cylinder": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, inflict damage to your opponent equal to its ATK."
+    },
+    "Kycoo_the_Ghost_Destroyer": {
+        "card_type": "Monster",
+        "text": "When this card inflicts battle damage to your opponent: You can target up to 2 monsters in their Graveyard; banish those targets. Your opponent cannot banish cards from either player's Graveyard.",
+        "stats": "1800 / 700",
+        "types": "Spellcaster / Effect"
+    },
+    "Mage_Power": {
+        "card_type": "Spell",
+        "text": "The equipped monster gains 500 ATK and DEF for each Spell/Trap Card you control."
+    },
+    "Judgment_Dragon": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 4 or more \"Lightsworn\" monsters with different names in your GY. You can pay 1000 LP; destroy all other cards on the field. Once per turn, during your End Phase: Send the top 4 cards of your Deck to the GY.",
+        "stats": "3000 / 2600",
+        "types": "Dragon / Effect"
+    },
+    "Marshmallon": {
+        "card_type": "Monster",
+        "text": "Cannot be destroyed by battle. After damage calculation, if this card was attacked, and was face-down at the start of the Damage Step: The attacking player takes 1000 damage.",
+        "stats": "300 / 500",
+        "types": "Fairy / Effect"
+    },
+    "Magician_of_Faith": {
+        "card_type": "Monster",
+        "text": "FLIP: Target 1 Spell in your GY; add that target to your hand.",
+        "stats": "300 / 400",
+        "types": "Spellcaster / Flip / Effect"
+    },
+    "Lumina,_Lightsworn_Summoner": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can discard 1 card, then target 1 Level 4 or lower \"Lightsworn\" monster in your GY; Special Summon that target. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the GY.",
+        "stats": "1000 / 1000",
+        "types": "Spellcaster / Effect"
+    },
+    "Lyla,_Lightsworn_Sorceress": {
+        "card_type": "Monster",
+        "text": "You can target 1 Spell/Trap your opponent controls; this card's battle position cannot be changed until the end of your next turn, also change this card you control from face-up Attack Position to face-up Defense Position, and if you do, destroy that target. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the GY.",
+        "stats": "1700 / 200",
+        "types": "Spellcaster / Effect"
+    },
+    "Mirror_Force": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters."
+    },
+    "Night_Assailant": {
+        "card_type": "Monster",
+        "text": "FLIP: Target 1 monster your opponent controls; destroy that target.\nWhen this card is sent from the hand to the Graveyard: Target 1 Flip Effect Monster in your Graveyard, except this card; return that target to the hand.",
+        "stats": "200 / 500",
+        "types": "Fiend / Effect"
+    },
+    "Necro_Gardna": {
+        "card_type": "Monster",
+        "text": "During your opponent's turn: You can banish this card from your Graveyard; negate the next attack this turn from a monster your opponent controls (this is a Quick Effect).",
+        "stats": "600 / 1300",
+        "types": "Warrior / Effect"
+    },
+    "Mystic_Swordsman_LV2": {
+        "card_type": "Monster",
+        "text": "At the start of the Damage Step, if this card attacked a face-down Defense Position monster: Destroy that monster. During the End Phase, if this card destroyed a monster by battle this turn: You can send this face-up card to the Graveyard; Special Summon 1 \"Mystic Swordsman LV4\" from your hand or Deck.",
+        "stats": "900 / 0",
+        "types": "Warrior / Effect"
+    },
+    "Neo-Spacian_Grand_Mole": {
+        "card_type": "Monster",
+        "text": "At the start of the Damage Step, if this card battles an opponent's monster: You can return both the opponent's monster and this card to the hand.",
+        "stats": "900 / 300",
+        "types": "Rock / Effect"
+    },
+    "Phantom_of_Chaos": {
+        "card_type": "Monster",
+        "text": "Your opponent takes no battle damage from attacks involving this card. Once per turn: You can target 1 Effect Monster in your GY; banish that target, and if you do, until the End Phase, this card's name and original ATK become that monster's name and original ATK, and replace this effect with that monster's original effects. You must control this face-up card to activate and to resolve this effect.",
+        "stats": "0 / 0",
+        "types": "Fiend / Effect"
+    },
+    "Penguin_Soldier": {
+        "card_type": "Monster",
+        "text": "FLIP: You can target up to 2 monsters on the field; return those targets to the hand.",
+        "stats": "750 / 500",
+        "types": "Aqua / Effect"
+    },
+    "Phoenix_Wing_Wind_Blast": {
+        "card_type": "Trap",
+        "text": "Discard 1 card, then target 1 card your opponent controls; place that target on the top of the Deck."
+    },
+    "Offerings_to_the_Doomed": {
+        "card_type": "Spell",
+        "text": "Target 1 face-up monster on the field; destroy that target, also skip your next Draw Phase."
+    },
+    "Nobleman_of_Crossout": {
+        "card_type": "Spell",
+        "text": "Target 1 face-down monster on the field; destroy that target, and if you do, banish it, then, if it was a Flip monster, each player reveals their Main Deck, then banishes all cards from it with that monster's name."
+    },
+    "Raigeki_Break": {
+        "card_type": "Trap",
+        "text": "Discard 1 card, then target 1 card on the field; destroy it."
+    },
+    "Raigeki": {
+        "card_type": "Spell",
+        "text": "Destroy all monsters your opponent controls."
+    },
+    "Raiza_the_Storm_Monarch": {
+        "card_type": "Monster",
+        "text": "If this card is Tribute Summoned: Target 1 card on the field; place that target on the top of the Deck.",
+        "stats": "2400 / 1000",
+        "types": "Winged Beast / Effect"
+    },
+    "Pot_of_Greed": {
+        "card_type": "Spell",
+        "text": "Draw 2 cards."
+    },
+    "Pot_of_Duality": {
+        "card_type": "Spell",
+        "text": "Excavate the top 3 cards of your Deck, add 1 of them to your hand, also, after that, shuffle the rest back into your Deck. You can only activate 1 \"Pot of Duality\" per turn. You cannot Special Summon during the turn you activate this card."
+    },
+    "Pot_of_Avarice": {
+        "card_type": "Spell",
+        "text": "Target 5 monsters in your Graveyard; shuffle all 5 into the Deck, then draw 2 cards."
+    },
+    "Premature_Burial": {
+        "card_type": "Spell",
+        "text": "Activate this card by paying 800 LP, then target 1 monster in your Graveyard; Special Summon that target in Attack Position and equip it with this card. When this card is destroyed, destroy the equipped monster."
+    },
+    "Pyramid_Turtle": {
+        "card_type": "Monster",
+        "text": "When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 Zombie-Type monster with 2000 or less DEF from your Deck.",
+        "stats": "1200 / 1400",
+        "types": "Zombie / Effect"
+    },
+    "Plaguespreader_Zombie": {
+        "card_type": "Monster",
+        "text": "If this card is in your GY: You can place 1 card from your hand on the top of the Deck; Special Summon this card, but banish it when it leaves the field.",
+        "stats": "400 / 200",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Scarlight_Red_Dragon_Archfiend": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nThis card's name becomes \"Red Dragon Archfiend\" while it is on the field or in the Graveyard. Once per turn: You can destroy as many Special Summoned Effect Monsters on the field as possible with ATK less than or equal to this card's (other than this card), then inflict 500 damage to your opponent for each monster destroyed.",
+        "stats": "3000 / 2500",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Ryko,_Lightsworn_Hunter": {
+        "card_type": "Monster",
+        "text": "FLIP: Apply these effects (simultaneously).\n● You can destroy 1 card on the field.\n● Send the top 3 cards of your Deck to the GY.",
+        "stats": "200 / 100",
+        "types": "Beast / Flip / Effect"
+    },
+    "Sakuretsu_Armor": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Target the attacking monster; destroy that target."
+    },
+    "Scapegoat": {
+        "card_type": "Spell",
+        "text": "Special Summon 4 \"Sheep Tokens\" (Beast/EARTH/Level 1/ATK 0/DEF 0) in Defense Position. They cannot be Tributed for a Tribute Summon. You cannot Summon other monsters the turn you activate this card (but you can Normal Set)."
+    },
+    "Reflect_Bounder": {
+        "card_type": "Monster",
+        "text": "Before damage calculation, if this card is being attacked by an opponent's monster, and was in face-up Attack Position at the start of the Damage Step: Inflict damage to your opponent equal to the attacking monster's ATK. If you do, after damage calculation: Destroy this card.",
+        "stats": "1700 / 1000",
+        "types": "Machine / Effect"
+    },
+    "Return_from_the_Different_Dimension": {
+        "card_type": "Trap",
+        "text": "Pay half your Life Points; Special Summon as many of your banished monsters as possible. During the End Phase, banish all monsters that were Special Summoned by this effect."
+    },
+    "Snatch_Steal": {
+        "card_type": "Spell",
+        "text": "Equip only to a monster your opponent controls. Take control of the equipped monster. During each of your opponent's Standby Phases: They gain 1000 Life Points."
+    },
+    "Traptrix_Myrmeleo": {
+        "card_type": "Monster",
+        "text": "This card is unaffected by the effects of \"Hole\" Normal Trap Cards. When this card is Normal Summoned: You can add 1 \"Hole\" Normal Trap Card from your Deck to your hand. If this card is Special Summoned: Target 1 Spell/Trap Card your opponent controls; destroy that target.",
+        "stats": "1600 / 1200",
+        "types": "Insect / Effect"
+    },
+    "Treeborn_Frog": {
+        "card_type": "Monster",
+        "text": "Once per turn, during your Standby Phase, if this card is in your Graveyard and you do not control \"Treeborn Frog\": You can Special Summon this card. You must control no Spell/Trap Cards to activate and to resolve this effect.",
+        "stats": "100 / 100",
+        "types": "Aqua / Effect"
+    },
+    "Zaborg_the_Thunder_Monarch": {
+        "card_type": "Monster",
+        "text": "If this card is Tribute Summoned: Target 1 monster on the field; destroy that target.",
+        "stats": "2400 / 1000",
+        "types": "Thunder / Effect"
+    },
+    "Shutendoji": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can activate 1 of these effects.\n● Banish 2 Zombie-Type monsters from your Graveyard; draw 1 card.\n● Target 1 of your banished Zombie-Type monsters; place that target on the top of your Deck.",
+        "stats": "1500 / 800",
+        "types": "Zombie / Effect"
+    },
+    "Skelengel": {
+        "card_type": "Monster",
+        "text": "FLIP: Draw 1 card.",
+        "stats": "900 / 400",
+        "types": "Fairy / Flip / Effect"
+    },
+    "Silent_Psychic_Wizard": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can target 1 Psychic-Type monster in your Graveyard; banish that target. If this card is sent from the field to the Graveyard: Special Summon that monster banished by this effect.",
+        "stats": "1900 / 0",
+        "types": "Psychic / Effect"
+    },
+    "Shiranui_Spectralsword": {
+        "card_type": "Monster",
+        "text": "If this card is in your GY, except the turn this card was sent to the GY: You can target 1 non-Tuner Zombie monster in your GY; banish both it and this card, and if you do, Special Summon 1 Zombie Synchro Monster from your Extra Deck whose Level equals the total Levels those 2 monsters had. You can only use this effect of “Shiranui Spectralsword” once per turn.",
+        "stats": "800 / 0",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Shaddoll_Squamata": {
+        "card_type": "Monster",
+        "text": "FLIP: You can target 1 monster on the field; destroy it.\nIf this card is sent to the Graveyard by a card effect: You can send 1 \"Shaddoll\" card from your Deck to the Graveyard, except \"Shaddoll Squamata\". You can only use 1 \"Shaddoll Squamata\" effect per turn, and only once that turn.",
+        "stats": "1800 / 1000",
+        "types": "Spellcaster / Flip / Effect"
+    },
+    "Shiranui_Samuraisaga": {
+        "card_type": "Monster",
+        "text": "1 Zombie-Type Tuner + 1 or more non-Tuner Zombie-Type monsters\nOnce per turn, during either player's turn: You can target 1 of your banished Zombie-Type monsters; shuffle it into the Deck, and if you do, change to Defense Position all monsters your opponent controls with ATK less than or equal to that monster's. If this card is banished: You can target 1 face-up monster your opponent controls; it loses 500 ATK. You can only Special Summon \"Shiranui Samuraisaga(s)\" once per turn.",
+        "stats": "2500 / 0",
+        "types": "Zombie / Synchro / Effect"
+    },
+    "World_Carrotweight_Champion": {
+        "card_type": "Monster",
+        "text": "If this card is in your Graveyard: You can send 1 Plant-Type monster from your hand or face-up from your field to the Graveyard, except \"World Carrotweight Champion\"; Special Summon this card. You can only use this effect of \"World Carrotweight Champion\" once per turn.",
+        "stats": "1900 / 0",
+        "types": "Plant / Effect"
+    },
+    "Trap_Dustshoot": {
+        "card_type": "Trap",
+        "text": "Activate only if your opponent has 4 or more cards in their hand. Look at your opponent's hand, select 1 Monster Card in it, and return that card to its owner's Deck."
+    },
+    "Yata-Garasu": {
+        "card_type": "Monster",
+        "text": "This card cannot be Special Summoned. This card returns to its owner's hand during the End Phase of the turn it is Normal Summoned or flipped face-up. When this card inflicts Battle Damage to your opponent, they skip their next Draw Phase.",
+        "stats": "200 / 100",
+        "types": "Fiend / Spirit"
+    },
+    "Vanity's_Fiend": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. Neither player can Special Summon monsters.",
+        "stats": "2400 / 1200",
+        "types": "Fiend / Effect"
+    },
+    "Wind-Up_Juggler": {
+        "card_type": "Monster",
+        "text": "After damage calculation, if this card battled an opponent's monster: You can destroy that opponent's monster. This effect can be used only once while this card is face-up on the field.",
+        "stats": "1700 / 1000",
+        "types": "Psychic / Effect"
+    },
+    "Wiretap": {
+        "card_type": "Trap",
+        "text": "When a Trap Card is activated: Negate the activation, and if you do, shuffle that card into the Deck."
+    },
+    "Vampire_Hunter": {
+        "card_type": "Monster",
+        "text": "At the start of the Damage Step, if this card battles a DARK monster: Destroy that monster.",
+        "stats": "1600 / 1600",
+        "types": "Warrior / Effect"
+    },
+    "Vermillion_Dragon_Mech": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nOnce per turn: You can banish 1 Tuner from your hand, field, or Graveyard, then target 1 card on the field; destroy it. If this Synchro Summoned card is destroyed by card effect and sent to the Graveyard: You can target 1 of your banished Tuners; add it to your hand.",
+        "stats": "2700 / 1800",
+        "types": "Machine / Synchro / Effect"
+    },
+    "Void_Expansion": {
+        "card_type": "Spell",
+        "text": "During your Standby Phase: You can Special Summon 1 \"Infernoid Token\" (Fiend-Type/FIRE/Level 1/ATK 0/DEF 0). To Special Summon an \"Infernoid\" monster using its own procedure, you can banish \"Infernoid\" monster(s) you control instead of those in the Graveyard (or any combination of both). Your opponent cannot target \"Infernoid\" monsters you control for attacks or with card effects, except the \"Infernoid\" monster you control with the highest Level (either, if tied)."
+    },
+    "Void_Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When your opponent Special Summons a monster(s) with 2000 or more ATK: Negate the effects of 1 of those monsters with 2000 or more ATK, and if you do, destroy it."
+    },
+    "Uni-Zombie": {
+        "card_type": "Monster",
+        "text": "You can target 1 face-up monster on the field; discard 1 card, and if you do, increase that target's Level by 1. You can target 1 face-up monster on the field; monsters you control cannot attack for the rest of this turn, except Zombie monsters, also send 1 Zombie monster from your Deck to the GY, and if you do, increase that target's Level by 1. You can only use each effect of \"Uni-Zombie\" once per turn.",
+        "stats": "1300 / 0",
+        "types": "Zombie / Tuner / Effect"
+    },
+    "Vampire_Fraulein": {
+        "card_type": "Monster",
+        "text": "When a monster declares an attack: You can Special Summon this card from your hand in Defense Position. You can only use this effect of \"Vampire Fraulein\" once per turn. Once per battle, if your Zombie monster battles an opponent's monster, during damage calculation (Quick Effect): You can pay LP in multiples of 100 (max. 3000); your battling monster gains that much ATK/DEF during that damage calculation only. At the end of the Battle Phase, if this card destroyed any monster(s) by battle: You can Special Summon them from the GYs to your field.",
+        "stats": "600 / 2000",
+        "types": "Zombie / Effect"
+    },
+    "Zombie_Master": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can send 1 monster from your hand to the Graveyard, then target 1 Level 4 or lower Zombie-Type monster in either player's Graveyard; Special Summon that target. This card must be face-up on the field to activate and to resolve this effect.",
+        "stats": "1800 / 0",
+        "types": "Zombie / Effect"
+    },
+    "Vampire_Sorcerer": {
+        "card_type": "Monster",
+        "text": "If this card in your possession is sent to your GY by your opponent's card: You can add 1 DARK \"Vampire\" monster or 1 \"Vampire\" Spell/Trap from your Deck to your hand. You can banish this card from your GY; 1 DARK \"Vampire\" monster you Normal Summon this turn can be Summoned without Tributing.",
+        "stats": "1500 / 1500",
+        "types": "Zombie / Effect"
+    },
+    "Zombie_World": {
+        "card_type": "Spell",
+        "text": "All monsters on the field and in every GY become Zombie monsters. Neither player can Tribute Summon monsters, except Zombie monsters."
+    },
+    "Solar_Wind_Jammer": {
+        "card_type": "Monster",
+        "text": "If you control no monsters, you can Special Summon this card (from your hand), but its original ATK and DEF become halved. During each of your Standby Phases: Increase the Level of this card by 1. There can only be 1 \"Solar Wind Jammer\" on the field.",
+        "stats": "800 / 2400",
+        "types": "Machine / Effect"
+    },
+    "Mobius_the_Frost_Monarch": {
+        "card_type": "Monster",
+        "text": "When this card is Tribute Summoned: You can target up to 2 Spell/Trap Cards on the field; destroy those targets.",
+        "stats": "2400 / 1000",
+        "types": "Aqua / Effect"
+    },
+    "Summoner_Monk": {
+        "card_type": "Monster",
+        "text": "While this card is face-up on the field, it cannot be Tributed. If this card is Normal or Flip Summoned: Change this card to Defense Position. Once per turn: You can discard 1 Spell; Special Summon 1 Level 4 monster from your Deck, but that monster cannot attack this turn.",
+        "stats": "800 / 1600",
+        "types": "Spellcaster / Effect"
+    },
+    "Ryko,_Twilightsworn_Fighter": {
+        "card_type": "Monster",
+        "text": "If this card is Normal Summoned or flipped face-up: You can banish 1 \"Lightsworn\" monster from your hand or GY; banish 1 card on the field. Once per turn, if your other \"Lightsworn\" monster's effect is activated: Send the top 3 cards of your Deck to the GY.",
+        "stats": "200 / 100",
+        "types": "Beast / Effect"
+    },
+    "Doomking_Balerdroch": {
+        "card_type": "Monster",
+        "text": "During the Standby Phase, if a face-up card is in a Field Zone and this card is in your GY: You can Special Summon this card in Defense Position. You can only use this effect of “Doomking Balerdroch” once per turn. Once per Chain, when a Zombie monster, except “Doomking Balerdroch”, activates its effect (except during the Damage Step) (Quick Effect): You can apply 1 of these effects (but you cannot apply that same effect of “Doomking Balerdroch” again this turn).\n● Negate that effect.● Banish 1 monster from the field or GY.",
+        "stats": "2800 / 2000",
+        "types": "Zombie / Effect"
+    },
+    "Samsara,_Dragon_of_Rebirth": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is destroyed by battle and sent to the Graveyard, or if this card you control is sent to your Graveyard by an opponent's card effect: You can target 1 monster in either player's Graveyard, except \"Samsara, Dragon of Rebirth\"; Special Summon it. You can only use this effect of \"Samsara, Dragon of Rebirth\" once per turn.",
+        "stats": "100 / 2600",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Level_Eater": {
+        "card_type": "Monster",
+        "text": "If this card is in your Graveyard: You can target 1 Level 5 or higher monster you control; reduce its Level by 1, and if you do, Special Summon this card. This face-up card on the field cannot be Tributed, except for a Tribute Summon.",
+        "stats": "600 / 0",
+        "types": "Insect / Effect"
+    },
+    "Powerful_Rebirth": {
+        "card_type": "Trap",
+        "text": "Activate this card by targeting 1 Level 4 or lower monster in your GY; Special Summon that target. Increase its Level by 1 and ATK and DEF by 100. When that monster is destroyed, destroy this card."
+    },
+    "Scrap_Beast": {
+        "card_type": "Monster",
+        "text": "If this face-up Defense Position card is targeted for an attack, at the end of the Battle Phase: Destroy this card. If this card is destroyed by the effect of a \"Scrap\" card and sent to the Graveyard: You can target 1 \"Scrap\" monster in your Graveyard, except \"Scrap Beast\"; add that target to your hand.",
+        "stats": "1600 / 1300",
+        "types": "Beast / Tuner"
+    },
+    "Pot_of_Dichotomy": {
+        "card_type": "Spell",
+        "text": "At the start of your Main Phase 1: Target 3 monsters with different Types in your Graveyard; Shuffle all 3 into the Deck, then draw 2 cards. You cannot conduct your Battle Phase the turn you activate this card."
+    },
+    "Raiden,_Hand_of_the_Lightsworn": {
+        "card_type": "Monster",
+        "text": "During your Main Phase: You can send the top 2 cards of your Deck to the GY, then if any \"Lightsworn\" monsters were sent to the GY by this effect, this card gains 200 ATK until the end of your opponent's turn. You can only use this effect of \"Raiden, Hand of the Lightsworn\" once per turn. Once per turn, during your End Phase: Send the top 2 cards of your Deck to the GY.",
+        "stats": "1700 / 1000",
+        "types": "Warrior / Tuner / Effect"
+    },
+    "Trap_Hole": {
+        "card_type": "Trap",
+        "text": "When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target."
+    },
+    "Shrink": {
+        "card_type": "Spell",
+        "text": "Target 1 face-up monster on the field; its original ATK becomes halved until the end of this turn."
+    },
+    "X-Saber_Airbellum": {
+        "card_type": "Monster",
+        "text": "If this card inflicts battle damage to your opponent by a direct attack: Discard 1 random card from your opponent's hand.",
+        "stats": "1600 / 200",
+        "types": "Beast / Tuner / Effect"
+    },
+    "White_Dragon_Wyverburster": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 DARK monster from your Graveyard, and cannot be Special Summoned by other ways. You can only Special Summon \"White Dragon Wyverburster\" once per turn this way. If this card is sent from the field to the Graveyard: You can add 1 \"Black Dragon Collapserpent\" from your Deck to your hand.",
+        "stats": "1700 / 1800",
+        "types": "Dragon / Effect"
+    },
+    "Tragoedia": {
+        "card_type": "Monster",
+        "text": "When you take battle damage: You can Special Summon this card from your hand. Gains 600 ATK/DEF for each card in your hand. Once per turn: You can send 1 monster from your hand to the GY, then target 1 face-up monster your opponent controls with the same Level the sent monster had in the hand; take control of that face-up monster. Once per turn: You can target 1 monster in your GY; this card's Level becomes the same as that target's, until the end of this turn.",
+        "stats": "? / ?",
+        "types": "Fiend / Effect"
+    },
+    "Waboku": {
+        "card_type": "Trap",
+        "text": "You take no battle damage from your opponent's monsters this turn. Your monsters cannot be destroyed by battle this turn."
+    },
+    "Widespread_Ruin": {
+        "card_type": "Trap",
+        "text": "When an opponent's monster declares an attack: Destroy the Attack Position monster your opponent controls with the highest ATK (your choice, if tied)."
+    },
+    "Vylon_Prism": {
+        "card_type": "Monster",
+        "text": "If this card is sent from the Monster Card Zone to the Graveyard: You can pay 500 Life Points, then target 1 face-up monster you control; equip this card to that target. If the equipped monster attacks or is attacked: It gains 1000 ATK during the Damage Step only.",
+        "stats": "1500 / 1500",
+        "types": "Thunder / Tuner"
+    },
+    "Vampire_Lord": {
+        "card_type": "Monster",
+        "text": "When this card inflicts battle damage to your opponent: Declare 1 type of card (Monster, Spell, or Trap); your opponent sends 1 card of that type from their Deck to the GY. Once per turn, during your next Standby Phase after this card in your possession was destroyed and sent to your GY by an opponent's card effect: Special Summon this card from the GY.",
+        "stats": "2000 / 1500",
+        "types": "Zombie / Effect"
+    },
+    "Wulf,_Lightsworn_Beast": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned by a card effect. If this card is sent from your Deck to the GY: Special Summon it.",
+        "stats": "2100 / 300",
+        "types": "Beast-Warrior / Effect"
+    },
+    "United_We_Stand": {
+        "card_type": "Spell",
+        "text": "The equipped monster gains 800 ATK/DEF for each face-up monster you control."
+    },
+    "Injection_Fairy_Lily": {
+        "card_type": "Monster",
+        "text": "If this card attacks or is attacked, during damage calculation (in either player's turn): You can pay 2000 LP once per battle; this card gains 3000 ATK during that damage calculation only.",
+        "stats": "400 / 1500",
+        "types": "Spellcaster / Effect"
+    },
+    "Maxx_\"C\"": {
+        "card_type": "Monster",
+        "text": "During either player's turn: You can send this card from your hand to the Graveyard; this turn, each time your opponent Special Summons a monster(s), immediately draw 1 card. You can only use 1 \"Maxx \"C\"\" per turn.",
+        "stats": "500 / 200",
+        "types": "Insect / Effect"
+    },
+    "Vulcan_the_Divine": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is Synchro Summoned: Target 1 face-up card you control and 1 face-up card your opponent controls; return those targets to the hand, but for the rest of this turn, you cannot activate cards, or the effects of cards, with the same name as those returned to the hand by this effect. You can only use this effect of \"Vulcan the Divine\" once per turn.",
+        "stats": "2000 / 1600",
+        "types": "Beast-Warrior / Synchro / Effect"
+    },
+    "Twin_Twisters": {
+        "card_type": "Spell",
+        "text": "Discard 1 card, then target up to 2 Spells/Traps on the field; destroy them."
+    },
+    "Tristan,_Knight_of_the_Underworld": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can target 1 Zombie-Type monster with 0 DEF in your Graveyard; add it to your hand. If you control a Zombie-Type monster (other than this card), this card gains 300 ATK.",
+        "stats": "1800 / 0",
+        "types": "Zombie / Effect"
+    },
+    "Tuningware": {
+        "card_type": "Monster",
+        "text": "This card can be treated as a Level 2 monster when used for a Synchro Summon. If this card is sent to the Graveyard for a Synchro Summon: Draw 1 card.",
+        "stats": "100 / 300",
+        "types": "Machine / Effect"
+    },
+    "Tsukuyomi": {
+        "card_type": "Monster",
+        "text": "Cannot be Special Summoned. If this card is Normal Summoned or flipped face-up: Target 1 face-up monster on the field; change that target to face-down Defense Position. Once per turn, during the End Phase, if this card was Normal Summoned or flipped face-up this turn: Return it to the hand.",
+        "stats": "1100 / 1400",
+        "types": "Spellcaster / Spirit / Effect"
+    },
+    "Shiranui_Shogunsaga": {
+        "card_type": "Monster",
+        "text": "1 Zombie-Type Tuner + 1 or more non-Tuner Zombie-Type monsters\nIf this card is Special Summoned: You can banish 1 Zombie-Type monster from your Graveyard; this card gains ATK equal to the banished monster's original ATK, until the end of this turn. If this card on the field is destroyed by battle or card effect and sent to the Graveyard: You can target 1 of your banished Zombie-Type monsters with 0 DEF; return it to the Graveyard. You can only Special Summon \"Shiranui Shogunsaga(s)\" once per turn.",
+        "stats": "3000 / 0",
+        "types": "Zombie / Synchro / Effect"
+    },
+    "Chaos_Emperor_Dragon": {
+        "card_type": "Monster",
+        "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 LIGHT and 1 DARK monster from your GY. You can pay 1000 Life Points; send as many cards in both players' hands and on the field as possible to the GY, then inflict 300 damage to your opponent for each card sent to the opponent's GY by this effect. You cannot activate other cards or effects during the turn you activate this card's effect.",
+        "stats": "3000 / 2500",
+        "types": "Dragon / Effect"
+    },
+    "Smashing_Ground": {
+        "card_type": "Spell",
+        "text": "Destroy the 1 face-up monster your opponent controls that has the highest DEF (your choice, if tied)."
+    },
+    "Breaker": {
+        "card_type": "Monster",
+        "text": "If this card is Normal Summoned: Place 1 Spell Counter on it (max. 1). Gains 300 ATK for each Spell Counter on it. You can remove 1 Spell Counter from this card, then target 1 Spell/Trap on the field; destroy that target.",
+        "stats": "1600 / 1000",
+        "types": "Spellcaster / Effect"
+    },
+    "Slate_Warrior": {
+        "card_type": "Monster",
+        "text": "FLIP: This card gains 500 ATK and DEF.\nIf this card is destroyed by battle: The monster that destroyed it loses 500 ATK and DEF.",
+        "stats": "1900 / 400",
+        "types": "Fiend / Flip / Effect"
+    },
+    "Forbidden_Lance": {
+        "card_type": "Spell",
+        "text": "Target 1 face-up monster on the field; until the end of this turn, that target loses 800 ATK, but is unaffected by the effects of other Spells/Traps."
+    },
+    "Mystic_Tomato": {
+        "card_type": "Monster",
+        "text": "When this card is destroyed by battle and sent to the GY: You can Special Summon 1 DARK monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+        "stats": "1400 / 1100",
+        "types": "Plant / Effect"
+    },
+    "Solar_Recharge": {
+        "card_type": "Spell",
+        "text": "Discard 1 \"Lightsworn\" monster; draw 2 cards, then send the top 2 cards of your Deck to the GY."
+    },
     "Bazoo_the_Soul_Eater": {
         "card_type": "Monster",
         "text": "Once per turn: You can banish up to 3 monsters from your Graveyard; this card gains 300 ATK for each, until the end of your opponent's turn.",
         "stats": "1600 / 900",
         "types": "Beast / Effect"
+    },
+    "Destiny_HERO_Dasher": {
+        "card_type": "Monster",
+        "text": "Once per turn: You can Tribute 1 other monster; this card gains 1000 ATK until the End Phase. If this card attacks, change it to Defense Position at the end of the Battle Phase. One time only, when you draw a Monster Card during your Draw Phase while this card is in your Graveyard: You can reveal it; Special Summon it. This card must be in the Graveyard to activate and to resolve this effect.",
+        "stats": "2100 / 1000",
+        "types": "Warrior / Effect"
+    },
+    "Debris__Dragon": {
+        "card_type": "Monster",
+        "text": "When this card is Normal Summoned: You can target 1 monster with 500 or less ATK in your GY; Special Summon that target in Attack Position, but it has its effects negated. Cannot be used as Synchro Material, except for the Synchro Summon of a Dragon monster. The other Synchro Material(s) cannot be Level 4.",
+        "stats": "1000 / 2000",
+        "types": "Dragon / Tuner / Effect"
+    },
+    "Trishula": {
+        "card_type": "Monster",
+        "text": "1 Tuner + 2+ non-Tuner monsters\nWhen this card is Synchro Summoned: You can banish up to 1 card each from your opponent's hand, field, and GY. (The card in the hand is chosen at random.)",
+        "stats": "2700 / 2000",
+        "types": "Dragon / Synchro / Effect"
+    },
+    "Solemn_Judgement": {
+        "card_type": "Trap",
+        "text": "When a monster(s) would be Summoned, OR a Spell/Trap Card is activated: Pay half your LP; negate the Summon or activation, and if you do, destroy that card."
+    },
+    "Wave_Motion_Cannon": {
+        "card_type": "Spell",
+        "text": "During your Main Phase, you can send this card to the Graveyard to inflict 1000 points of damage to your opponent for each of your Standby Phases that have passed since this card was activated."
+    },
+    "MST": {
+        "card_type": "Spell",
+        "text": "Target 1 Spell/Trap on the field; destroy that target."
+    },
+    "Harpy's_Feather_Duster": {
+        "card_type": "Spell",
+        "text": "Destroy all Spell and Trap Cards your opponent controls."
+    },
+    "Reinforcements_of_the_Army": {
+        "card_type": "Spell",
+        "text": "Add 1 Level 4 or lower Warrior monster from your Deck to your hand."
+    },
+    "White_Aura_Biphamet": {
+        "card_type": "Monster",
+        "text": "1 Tuner Synchro Monster + 1+ non-Tuner monsters\nDuring your turn, when this card is Synchro Summoned: You can Special Summon 1 \"Divine Dragon Token\" (Fish/WATER/Level 10/ATK 3300/DEF 3000) in Defense Position. Once per opponent's turn, while you control no Tokens (Quick Effect): You can Special Summon 1 \"Divine Dragon Token\". If this card you control is destroyed by an opponent's card effect and sent to your GY, while you control a \"Divine Dragon Token\": You can Special Summon this card in Defense position.",
+        "stats": "3300 / 3000",
+        "types": "Fish / Synchro / Effect"
     }
 }
