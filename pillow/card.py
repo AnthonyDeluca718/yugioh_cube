@@ -4,7 +4,7 @@ import os, json, textwrap
 fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 12)
 fnt_large = ImageFont.truetype('/Library/Fonts/Arial.ttf', 14)
 fnt_black = ImageFont.truetype('/Library/Fonts/Arial Black.ttf', 14)
-char_limit = 60
+char_limit = 58
 char_limit_large = 50
 ascent, descent = fnt.getmetrics()
 line_height = ascent + descent + 1
