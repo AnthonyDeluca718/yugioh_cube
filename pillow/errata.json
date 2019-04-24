@@ -3,6 +3,12 @@
       "card_type": "Spell",
       "text": "Pay 800 LP, then target 1 face-up monster your opponent controls; take control of that target until the End Phase."
   },
+  "Brionac,_Dragon_of_the_Ice_Barrier": {
+      "card_type": "Monster",
+      "text": "1 Tuner + 1 or more non-Tuner monsters\nYou can discard any number of cards to return the same number of cards from the field to the hand.",
+      "stats": "2300 / 1400",
+      "types": "Sea Serpent / Synchro / Effect"
+  },
   "Chaos_Emperor_Dragon_-_Envoy_of_the_End": {
       "card_type": "Monster",
       "text": "Cannot be normal summoned or set. This card can only be Special Summoned by removing 1 LIGHT and 1 DARK monster in your Graveyard from play. Pay 1000 of your Life Points to send all cards in both players' hands and on the field to the Graveyard. Inflict 300 points of damage to your opponent's Life Points for each card that is sent to the Graveyard by this effect.",
