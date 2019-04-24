@@ -1,3 +1,4 @@
+const fs = require('fs')
 const data = require('./cardlist.json')
 
-console.log(Object.keys(data).length)
+Object.keys(data).forEach(key => fs.readFileSync(`./image-output/${key}.png`))
