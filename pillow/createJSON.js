@@ -1,15 +1,7 @@
 const { loadData, getProps } = require('./getData')
 const fs = require('fs')
 
-// const LineByLine = require('line-by-line')
-
-// getData('Judgement Dragon', 'test')
-
-const createJSON = (file, folder, name) => {
-  if (!fs.existsSync(`./${folder}`)) {
-    fs.mkdirSync(`./${folder}`)
-  }
-
+const createJSON = (file, name) => {
   const cards = {}
 
   const lines = fs.readFileSync(file, 'utf-8').split('\n').filter(Boolean)
@@ -21,7 +13,7 @@ const createJSON = (file, folder, name) => {
       .catch(() => console.log(error))
   });
 
-  Promise.all(promises).then(() => fs.writeFileSync(`./${folder}/${name}.json`, JSON.stringify(cards, null, 4)))
+  Promise.all(promises).then(() => fs.writeFileSync(`./${name}.json`, JSON.stringify(cards, null, 4)))
 }
 
-createJSON('testList', 'test2', 'cardlist')
+createJSON('cardlist2', 'cardlist2')
